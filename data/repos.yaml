@@ -1,0 +1,1487 @@
+updated_at: '2026-11-09'
+repos:
+- repo: bagidea/bagidea-office
+  category: AI Agent 与框架
+  tier: 精选
+  what: 以桌面办公室呈现多 Agent 协作的应用
+  verdict: 将 Agent 工作状态映射到桌面壁纸中的办公室角色。
+  status: 收藏
+- repo: bassimeledath/dispatch
+  category: AI Agent 与框架
+  tier: 精选
+  what: 为编程 Agent 组织子任务和提问恢复的协作工具
+  verdict: 借鉴子任务缺信息时提问、暂停并恢复的协作机制。
+  status: 收藏
+- repo: milind-soni/openmausbot-teams
+  category: AI Agent 与框架
+  tier: 精选
+  what: 多 Bot 协作任务的模板和操作手册
+  verdict: 多角色先记变化证据、再判断影响的分工值得借，增益仍待比较。
+  status: 收藏
+- repo: NousResearch/hermes-agent
+  category: AI Agent 与框架
+  tier: 精选
+  what: 支持工具、技能和长期任务的个人 Agent
+  verdict: 已有助手开发与定时任务验证记录，真实外部调用仍需逐项验收。
+  status: 试过
+- repo: stablyai/orca
+  category: AI Agent 与框架
+  tier: 精选
+  what: 统一管理本地与远程编程 Agent 会话的工作台
+  verdict: 知识库记录已用于日常远程开发，一个窗口管理多个会话。
+  status: 在用
+- repo: 1315577677/dsh-dot-plugin
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 面向多 Worker、持久任务和审核的社区插件
+  verdict: 由 Dot 组织团队执行目标，并集中交付任务结果。
+  status: 收藏
+- repo: agegr/pi-web
+  category: AI Agent 与框架
+  tier: 值得看
+  what: Pi 编程 Agent 的网页界面
+  verdict: 按项目管理会话，支持恢复、导出和从历史消息分支。
+  status: 收藏
+- repo: agent0ai/agent-zero
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 支持工具与任务执行的个人 Agent 框架
+  verdict: 为 Agent 提供独立 Linux 工作区及终端、浏览器和桌面工具。
+  status: 收藏
+- repo: AMAP-ML/LongHorizon-Harness
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 为长期电脑操作保留状态与审计的 Agent 框架
+  verdict: 以规划、执行、验证和检查点恢复组成长任务循环。
+  status: 收藏
+- repo: anomalyco/opencode
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 开源编程 Agent
+  verdict: 提供终端编程工作流及多种安装方式。
+  status: 收藏
+- repo: AstrBotDevs/AstrBot-desktop
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 便于本地安装和管理聊天伙伴的桌面应用
+  verdict: 把 WebUI、后端运行时和桌面外壳打包成一个本地应用。
+  status: 收藏
+- repo: aureth-labs/dsh-aurabot-qq
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 将 Agent 接入聊天平台并组合内容工具的插件
+  verdict: 把角色记忆、语音、表情和社交互动接入 QQ。
+  status: 收藏
+- repo: Bennettxai/FounderOS
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 把个人业务组织成多个 AI 协作部门的工作台
+  verdict: 将客户、沟通、财务、知识和 AI 协作集中到同一工作台。
+  status: 收藏
+- repo: can1357/oh-my-pi
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 集成开发工具的 Pi 编程 Agent 分支
+  verdict: 在 Pi 基础上集成 IDE 能力及开发工具。
+  status: 收藏
+- repo: deepseek-ai/awesome-deepseek-agent
+  category: AI Agent 与框架
+  tier: 值得看
+  what: DeepSeek Agent 相关资源合集
+  verdict: 按工具提供 DeepSeek 模型的安装、配置和首次运行指南。
+  status: 收藏
+- repo: deepseek-ai/deepseek-harness
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 以插件组织工具和能力的 Agent 运行框架
+  verdict: 通过插件扩展运行能力，目前仍处于快速迭代的开发预览阶段。
+  status: 收藏
+- repo: deepseek-ai/dsh-superagent-prototype
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 探索自主研发任务的 Agent 研究原型
+  verdict: 公开自主研发 Agent 的研究代码，可参考其工程组织方式。
+  status: 收藏
+- repo: earendil-works/pi
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 包含模型接口、Agent 循环与终端界面的工具集
+  verdict: 可通过扩展、技能和提示词模板定制 Agent 工作流。
+  status: 收藏
+- repo: FoundationAgents/OpenManus
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 通用任务执行 Agent 的开源实现
+  verdict: 提供通用 Agent 的简化实现，便于阅读和改造。
+  status: 收藏
+- repo: github/spec-kit
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 规格驱动开发工具包
+  verdict: 用规格、模板和结构化流程组织编程 Agent 的开发工作。
+  status: 收藏
+- repo: heshengtao/super-agent-party
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 整合语音、角色和工具能力的 AI 伙伴平台
+  verdict: 支持 VRM 角色、动作、3D 场景和 VTube Studio 角色接入。
+  status: 收藏
+- repo: HuangLab-SYSU/agent-emulator
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 通过轨迹回放实验 Agent 基础设施的平台
+  verdict: 把轨迹、事务及执行顺序映射到可复现实验中。
+  status: 收藏
+- repo: iOfficeAI/AionUi
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 管理多种编程 Agent 的桌面协作工作台
+  verdict: 把多 Agent、远程访问和自动化收进桌面应用。
+  status: 收藏
+- repo: Kevinwu901113/dsh-dot
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 为 AI 角色提供手机、记忆和日常互动的插件
+  verdict: 自动准备 Android 模拟器，并将手机能力与聊天互动结合。
+  status: 收藏
+- repo: KKKKhazix/agent-autoloop
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 按规则在后台接收和推进任务的 Agent 编排工具
+  verdict: 后台按规则接任务、持续跟进，遇到决策点再请求处理。
+  status: 收藏
+- repo: langchain-ai/deepagents
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 包含规划、文件和子任务能力的 Agent 框架
+  verdict: 预置长任务运行方式，同时允许替换和扩展各组件。
+  status: 收藏
+- repo: langchain-ai/langgraph
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 以状态图组织 Agent 工作流的框架
+  verdict: 以持久状态图组织长时间运行的 Agent 工作流。
+  status: 收藏
+- repo: letta-ai/letta-code
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 带持久记忆与经验积累的编程 Agent
+  verdict: 用可改写的记忆、技能和提示词积累跨任务经验。
+  status: 收藏
+- repo: loopx-project/loopx
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 支持长期任务与跨会话状态管理的工作台
+  verdict: 跨运行时保存长期目标、决策、责任与验证证据。
+  status: 收藏
+- repo: mergisi/awesome-dots
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 常驻 Agent 相关资料合集
+  verdict: 汇集常驻 Agent 的社区资源、操作指南和使用案例。
+  status: 收藏
+- repo: milind-soni/OpenMausBot
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 把本地 Agent、工具与虚拟电脑组织起来的工作台
+  verdict: 已读调度源码，云电脑不接管本机定时派发，尚未安装实测。
+  status: 收藏
+- repo: NanmiCoder/cc-haha
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 支持多 Agent 和远程操作的编程工作台
+  verdict: 集中管理会话、Worktree、Diff 审阅、审批和远程访问。
+  status: 收藏
+- repo: nashsu/llm_wiki
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 基于大模型整理知识的 Wiki 应用
+  verdict: 将文档摄取、来源溯源与增量 Wiki 更新组合起来。
+  status: 收藏
+- repo: NousResearch/hermes-agent-self-evolution
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 为 Hermes 优化技能、提示词和代码的实验工具
+  verdict: 用 DSPy 与 GEPA 优化技能、提示词和代码，无需 GPU 训练。
+  status: 收藏
+- repo: openai/codex
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 在终端中执行开发任务的编程 Agent
+  verdict: 在本机终端执行代码阅读、修改和开发任务。
+  status: 收藏
+- repo: openclaw/openclaw
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 通过消息渠道、工具与本地网关执行任务的个人助手
+  verdict: 将个人设备与消息渠道连接成助手的任务入口。
+  status: 收藏
+- repo: PrimeIntellect-ai/prime-agent
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 面向编程和长任务的自改进 Agent
+  verdict: 围绕长任务与递归语言模型组织编程和研究工作。
+  status: 收藏
+- repo: Project-N-E-K-O/N.E.K.O
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 支持语音、视觉和角色形象的 AI 伙伴框架
+  verdict: 提供语音、视觉与角色形象组合的陪伴 Agent 框架。
+  status: 收藏
+- repo: SAKURAfan1023/dafeiyu-bot
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 带角色、记忆和语音交互的聊天伙伴应用
+  verdict: 将 QQ 角色记忆、语音和 Avatar 工具组合成桌面客户端。
+  status: 收藏
+- repo: SWE-agent/SWE-agent
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 从 GitHub Issue 出发尝试修复代码的 Agent
+  verdict: 从 Issue 出发调用工具修复代码；README 也给出后续替代路线。
+  status: 收藏
+- repo: zhayujie/CowAgent
+  category: AI Agent 与框架
+  tier: 值得看
+  what: 支持多渠道接入与工具调用的个人 AI 助手
+  verdict: 整合多模型、工具、技能、记忆和多 Agent 协作。
+  status: 收藏
+- repo: ANative-Lab/EvoAgentX
+  category: AI Agent 与框架
+  tier: 看过没选
+  what: 探索多 Agent 工作流自动演化的框架
+  verdict: 框架偏底层，接入开发成本高，当时只保留机制参考。
+  status: 收藏
+- repo: EvoMap/evolver
+  category: AI Agent 与框架
+  tier: 看过没选
+  what: 记录经验资产与演化过程的 Agent 引擎
+  verdict: 仅借经验资产和演化历史管理思路，不直接引入整套引擎。
+  status: 收藏
+- repo: jennyzzt/dgm
+  category: AI Agent 与框架
+  tier: 看过没选
+  what: 通过修改与测试代码探索自改进的研究项目
+  verdict: 不直接接入代码自改框架，只参考独立测试与评分漏洞防护。
+  status: 收藏
+- repo: livekit/agents
+  category: AI Agent 与框架
+  tier: 看过没选
+  what: 构建实时语音和视频交互 Agent 的框架
+  verdict: 旧学习产品选型暂缓实时语音通道，当时没有接入刚需。
+  status: 收藏
+- repo: matrixorigin/Astra
+  category: AI Agent 与框架
+  tier: 看过没选
+  what: 面向长任务的自托管 Agent 运行时
+  verdict: 旧选型中长任务运行模式不匹配，且另增部署组件与迁移成本。
+  status: 收藏
+- repo: danielvm-git/bigpowers
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 包含计划、测试和验证流程的工程技能库
+  verdict: 借可执行验收、逐行为测试和分层验证，不整套搬入规则库。
+  status: 收藏
+- repo: DietrichGebert/ponytail
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 鼓励减少无用代码和实现复杂度的 Agent 技能
+  verdict: 通过技能约束减少无用代码，强调实现简洁与必要验证。
+  status: 收藏
+- repo: KKKKhazix/khazix-skills
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 覆盖目标澄清、工程维护和写作的技能合集
+  verdict: 把模糊目标澄清、工程执行和写作拆成可复用技能。
+  status: 收藏
+- repo: Leonxlnx/taste-skill
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 帮助编程 Agent 改善视觉设计的技能
+  verdict: 提供设计工程指引，帮助编程 Agent 处理界面细节。
+  status: 收藏
+- repo: mattpocock/skills
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 面向工程实践的 Agent 技能集合
+  verdict: 提供可按实际工程任务单独采用的 Agent 技能。
+  status: 收藏
+- repo: Nutlope/hallmark
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 帮助编程 Agent 生成和检查网页设计的技能
+  verdict: 明确收藏为网页设计候选，已读说明，尚未安装或试用。
+  status: 收藏
+- repo: obra/superpowers
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 组织 Agent 开发流程与工程规范的技能框架
+  verdict: 将设计、计划、开发与验证组合成可复用技能流程。
+  status: 收藏
+- repo: pbakaus/impeccable
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 提供界面审查与设计改进指令的技能库
+  verdict: 用 polish、critique、audit 等指令细化界面设计与审查。
+  status: 收藏
+- repo: wheresryan22/anatomy
+  category: Agent 技能与提示词
+  tier: 精选
+  what: 生成机器与复杂系统交互示意图的技能
+  verdict: 把抽象概念变成可操作的交互图形和工作对象。
+  status: 收藏
+- repo: adewale/good-readme
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 编写和改进 GitHub README 的技能
+  verdict: 根据实际源码分析编写或改善 README。
+  status: 收藏
+- repo: byadityaraj/designmd
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 从网站提取可复用设计上下文的工具
+  verdict: 从真实网页提取颜色、字体、间距和交互等设计依据。
+  status: 收藏
+- repo: cloudflare/security-audit-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 分阶段执行并核实安全审计发现的技能
+  verdict: 组织安全侦察、候选漏洞验证和结构化报告流程。
+  status: 收藏
+- repo: DECRUX9812/typesafe-skill-router
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 为 Hermes 按需选择技能的路由扩展
+  verdict: 在模型调用前选出值得加载的技能，减少无关技能上下文。
+  status: 收藏
+- repo: dembrandt/dembrandt
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 从网页提取颜色、字体与其他设计 token 的工具
+  verdict: 从网站提取设计系统并输出 W3C 设计 Token，可接 CI 检查。
+  status: 收藏
+- repo: Dicklesworthstone/skillranker
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 根据当前会话为技能排序的命令行工具
+  verdict: 以独立 Rust CLI 对下一步可用技能排序。
+  status: 收藏
+- repo: dmccreary/ibook-skills
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 用于交互式书籍与内容制作的技能库
+  verdict: 提供制作交互教材的便携式 Agent 技能库。
+  status: 收藏
+- repo: eli64s/readme-ai
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 根据代码仓库生成 README 的工具
+  verdict: 按项目内容生成可定制的 README 文档。
+  status: 收藏
+- repo: FrancoisChastel/jev-code
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 向编程 Agent 提供结构化分类与判断工具的插件
+  verdict: 将带概率的分类、是非判断、评分和排序接入编程工具。
+  status: 收藏
+- repo: glincker/claude-code-marketplace
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 包含开发、审查和自动化能力的社区技能市场
+  verdict: 汇集专业 Agent、自动化工作流与开发技能。
+  status: 收藏
+- repo: GodsBoy/jev-agent-skill-router
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 为 Agent 技能进行分类、排序与置信度判断的路由器
+  verdict: 比较语义技能路由和词面基线，提供可回查的合成请求评测。
+  status: 收藏
+- repo: Hiro-Inagawa/write-like-me
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 从写作样本构建文风档案并用规则检查的工具
+  verdict: 提供无需安装依赖即可运行的 Markdown 文风检查器。
+  status: 收藏
+- repo: irenerachel/xiaohongshu-layout-factory-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 将 IP 素材组织成小红书图集模板的技能
+  verdict: 从 IP 素材生成专属排版技能、HTML 模板和逐页质检流程。
+  status: 收藏
+- repo: marcusnelson/write-like-me-claude-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 让 Agent 从写作样本学习个人文风的技能
+  verdict: 从作者样本学习文风，形成可复用的写作技能。
+  status: 收藏
+- repo: Moosphan/readme-generator-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 根据项目内容生成 README 的技能
+  verdict: 为 Codex 和 Claude Code 提供 README 编写流程。
+  status: 收藏
+- repo: Shawnchee/design-scan
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 抓取网页布局、字体和颜色并生成设计文档的技能
+  verdict: 结合网页抓取、截图和交互观察生成 design.md。
+  status: 收藏
+- repo: shengjidaguai-china/personal-homepage-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 生成个人主页和 HTML 演示文稿的技能
+  verdict: 把个人主页、作品集与 HTML 演示模板配成 Agent 技能。
+  status: 收藏
+- repo: x1xhlol/system-prompts-and-models-of-ai-tools
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 收集 AI 产品系统提示词与工具定义的资料库
+  verdict: 汇集 AI 工具的提示词和相关资料，供对照阅读。
+  status: 收藏
+- repo: colbymchenry/codegraph
+  category: 记忆与知识库
+  tier: 精选
+  what: 为代码建立本地知识图谱并查询调用关系的工具
+  verdict: 以语义代码图帮助 Agent 查询跨文件关系。
+  status: 收藏
+- repo: google/langextract
+  category: 记忆与知识库
+  tier: 精选
+  what: 从文本提取带原文定位的信息与关系的库
+  verdict: 借鉴带字符位置的抽取、按位置去重和多次抽取一致性。
+  status: 收藏
+- repo: holaboss-ai/holaOS
+  category: 记忆与知识库
+  tier: 精选
+  what: 整合应用、工具与共享记忆的 Agent 工作台
+  verdict: 借鉴树形记忆、溯源和去重设计，未整套接入工作台。
+  status: 收藏
+- repo: langchain-ai/langmem
+  category: 记忆与知识库
+  tier: 精选
+  what: 为 Agent 构建长期记忆的工具库
+  verdict: 从对话抽取长期信息，并提供记忆和行为优化工具。
+  status: 收藏
+- repo: mem0ai/mem0
+  category: 记忆与知识库
+  tier: 精选
+  what: 为 Agent 保存和检索长期记忆的基础组件
+  verdict: 提供面向 AI 应用的长期记忆层。
+  status: 收藏
+- repo: paperboytm/spool
+  category: 记忆与知识库
+  tier: 精选
+  what: 保存、分享与恢复编程 Agent 会话的工具
+  verdict: 把真实 Agent 会话转成可阅读、分享和续接的网页。
+  status: 收藏
+- repo: TencentCloud/TencentDB-Agent-Memory
+  category: 记忆与知识库
+  tier: 精选
+  what: 把会话、文档和代码组织成共享记忆的工具
+  verdict: 让多个 Agent 共享同一个记忆服务。
+  status: 收藏
+- repo: 1Panel-dev/MaxKB
+  category: 记忆与知识库
+  tier: 值得看
+  what: 搭建知识库与企业 Agent 的应用平台
+  verdict: 整合 RAG、模型与工作流，提供可视化 Agent 构建入口。
+  status: 收藏
+- repo: compozy/yoshi
+  category: 记忆与知识库
+  tier: 值得看
+  what: 为编程 Agent 裁剪历史上下文的代理
+  verdict: 在本地代理中对新增上下文做判断和裁剪。
+  status: 收藏
+- repo: FalkorDB/FalkorDB
+  category: 记忆与知识库
+  tier: 值得看
+  what: 适用于知识图谱与图检索的图数据库
+  verdict: 用图数据库支撑关系查询和 Agent 记忆等场景。
+  status: 收藏
+- repo: getzep/graphiti
+  category: 记忆与知识库
+  tier: 值得看
+  what: 为 Agent 构建可持续更新知识图谱的工具
+  verdict: 以时间知识图谱保存事实及其变化。
+  status: 收藏
+- repo: gusye1234/nano-graphrag
+  category: 记忆与知识库
+  tier: 值得看
+  what: 便于阅读和修改的简化 GraphRAG 实现
+  verdict: 用较小实现保留 GraphRAG 的核心检索流程。
+  status: 收藏
+- repo: HKUDS/LightRAG
+  category: 记忆与知识库
+  tier: 值得看
+  what: 结合图结构和检索生成的知识库框架
+  verdict: 结合知识图谱与检索增强，提供文档处理和检索入口。
+  status: 收藏
+- repo: jerryfane/omp-jev-compaction
+  category: 记忆与知识库
+  tier: 值得看
+  what: 面向编程 Agent 的原文上下文裁剪扩展
+  verdict: 按工具调用及结果打分裁剪，不改写原文。
+  status: 收藏
+- repo: joelhooks/pi-fast-jev-compaction
+  category: 记忆与知识库
+  tier: 值得看
+  what: 在 Pi 中按判断结果裁剪原文上下文的扩展
+  verdict: 先裁剪上下文，空间仍不足时再交回 Pi 原有压缩机制。
+  status: 收藏
+- repo: labring/FastGPT
+  category: 记忆与知识库
+  tier: 值得看
+  what: 组合知识库问答与可视化 AI 工作流的平台
+  verdict: 将数据处理、模型调用与可视化 Flow 编排放在一起。
+  status: 收藏
+- repo: langgenius/dify
+  category: 记忆与知识库
+  tier: 值得看
+  what: 搭建 Agent、知识库和工作流的应用平台
+  verdict: 提供可自托管的 AI 应用构建与工作流平台。
+  status: 收藏
+- repo: microsoft/graphrag
+  category: 记忆与知识库
+  tier: 值得看
+  what: 以图结构组织文本检索与摘要的框架
+  verdict: 用图结构组织上下文，探索面向问答的检索方式。
+  status: 收藏
+- repo: Mintplex-Labs/anything-llm
+  category: 记忆与知识库
+  tier: 值得看
+  what: 管理本地知识库和模型对话的应用
+  verdict: 将文档问答、Agent 和多用户配置组合成应用。
+  status: 收藏
+- repo: nicobailon/pi-mcp-adapter
+  category: 记忆与知识库
+  tier: 值得看
+  what: 让 Pi 按需发现和调用 MCP 工具的扩展
+  verdict: 为 Pi 接入 MCP 工具，支持工具发现及长任务后台运行。
+  status: 收藏
+- repo: outline/outline
+  category: 记忆与知识库
+  tier: 值得看
+  what: 支持协作编辑与搜索的团队知识库
+  verdict: 已查原生 MCP 与中文搜索回退逻辑，真实页面及实际数据仍待验收。
+  status: 收藏
+- repo: samdotmak/jev-recall
+  category: 记忆与知识库
+  tier: 值得看
+  what: 按相关性筛选 Agent 记忆的工具
+  verdict: 对检索结果按相关性重排，供语义检索流程比较。
+  status: 收藏
+- repo: superagents-lab/jev-search
+  category: 记忆与知识库
+  tier: 值得看
+  what: 结合结构化判断进行网络检索的工具
+  verdict: 提供可安装为浏览器应用的搜索界面。
+  status: 收藏
+- repo: tamaratran/fast-jev-compaction
+  category: 记忆与知识库
+  tier: 值得看
+  what: 依据相关性保留原文并裁剪会话的插件
+  verdict: 按工具调用和结果做决策式裁剪，替代一段式压缩摘要。
+  status: 收藏
+- repo: TianyuCodings/JevHarness
+  category: 记忆与知识库
+  tier: 值得看
+  what: 结合结构化判断与反馈优化决策程序的实验框架
+  verdict: 让模型生成任务专用 harness，并检查和迭代其决策。
+  status: 收藏
+- repo: volcengine/OpenViking
+  category: 记忆与知识库
+  tier: 值得看
+  what: 以文件系统结构组织 Agent 上下文的数据库
+  verdict: 将文件、记忆和技能组织为 Agent 的上下文数据库。
+  status: 收藏
+- repo: yuque/yuque-ecosystem
+  category: 记忆与知识库
+  tier: 值得看
+  what: 知识平台的生态工具与集成资源库
+  verdict: 以官方技能提供知识速记、整理等语雀知识管理入口。
+  status: 收藏
+- repo: akitaonrails/ai-memory
+  category: 记忆与知识库
+  tier: 看过没选
+  what: 用于跨编程 Agent 检索和交接的记忆服务
+  verdict: 本机 PoC 可检索和交接，但与已有工具重叠，2026-08 决定暂不接入。
+  status: 试过
+- repo: vitali87/code-graph-rag
+  category: 记忆与知识库
+  tier: 看过没选
+  what: 使用知识图谱检索和理解代码的工具
+  verdict: 旧调研认为小型代码库引入重型图检索会增加过多工程复杂度。
+  status: 收藏
+- repo: droidrun/mobilerun
+  category: 评测与可观测
+  tier: 精选
+  what: 通过自然语言驱动移动设备操作的 Agent
+  verdict: 旧选型作为探索与真机补充候选，不作为唯一测试执行器。
+  status: 收藏
+- repo: langfuse/langfuse
+  category: 评测与可观测
+  tier: 精选
+  what: 记录模型调用并管理评测与提示词的平台
+  verdict: 把调用追踪、观测和 Agent 评测集中到同一平台。
+  status: 收藏
+- repo: beir-cellar/beir
+  category: 评测与可观测
+  tier: 值得看
+  what: 用于比较信息检索方法的基准与数据集
+  verdict: 用多类信息检索任务比较检索方法的泛化表现。
+  status: 收藏
+- repo: comet-ml/opik
+  category: 评测与可观测
+  tier: 值得看
+  what: 整合调用跟踪、实验管理和评测的平台
+  verdict: 后续选型保留为第二轮候选，需先比较与已有评测资产的重叠。
+  status: 收藏
+- repo: DevMortimer/pi-warden
+  category: 评测与可观测
+  tier: 值得看
+  what: 检查 Agent 操作风险、规则与完成声明的扩展
+  verdict: 检查 Agent 完成声明中的验证缺口，并触发补救。
+  status: 收藏
+- repo: easysoft/zentaopms
+  category: 评测与可观测
+  tier: 值得看
+  what: 管理需求、任务和缺陷的项目管理系统
+  verdict: 覆盖产品、项目及测试管理的完整协作流程。
+  status: 收藏
+- repo: EleutherAI/lm-evaluation-harness
+  category: 评测与可观测
+  tier: 值得看
+  what: 对语言模型进行任务评测的工具集
+  verdict: 提供统一模型评测框架，并允许通过插件注册组件。
+  status: 收藏
+- repo: hanlinwenyuan/hlwy-ai-checker
+  category: 评测与可观测
+  tier: 值得看
+  what: 检测第三方模型接口身份与一致性的工具
+  verdict: 先用官方模型接口标定，再对照第三方渠道的表现。
+  status: 收藏
+- repo: haowang02/codex-candy-eval
+  category: 评测与可观测
+  tier: 值得看
+  what: 用于检查 Codex 表现变化的评测项目
+  verdict: 检查过评分实现，可能因解释中出现目标数字而假通过，不能单题判断模型能力。
+  status: 试过
+- repo: harshwasan/jev-sentinel
+  category: 评测与可观测
+  tier: 值得看
+  what: 检查工具调用、输出与回复的安全扩展
+  verdict: 结合动作内容与任务意图判断工具调用风险。
+  status: 收藏
+- repo: letta-ai/letta-evals
+  category: 评测与可观测
+  tier: 值得看
+  what: 测试有状态 Agent 行为的评测工具集
+  verdict: 为 Agent 的模型、提示词、工具与配置变更建立评测。
+  status: 收藏
+- repo: Magic-Pod/magicpod-mcp-server
+  category: 评测与可观测
+  tier: 值得看
+  what: 商业 UI 测试平台的 MCP 服务
+  verdict: 旧选型仅在测试人员主导、少代码模式下保留为替代候选。
+  status: 收藏
+- repo: metersphere/metersphere
+  category: 评测与可观测
+  tier: 值得看
+  what: 管理接口、场景与自动化测试的平台
+  verdict: 覆盖功能用例、接口测试等持续测试流程。
+  status: 收藏
+- repo: microsoft/PromptWizard
+  category: 评测与可观测
+  tier: 值得看
+  what: 自动生成、评估和改进提示词的框架
+  verdict: 将任务反馈用于提示词的迭代优化。
+  status: 收藏
+- repo: Mohamed7415/fpverify
+  category: 评测与可观测
+  tier: 值得看
+  what: 通过行为指纹核验模型接口身份的工具
+  verdict: 用行为指纹检查模型 API 或 Agent IDE 的后端表现。
+  status: 收藏
+- repo: Optibus/playback
+  category: 评测与可观测
+  tier: 值得看
+  what: 记录服务操作并在隔离环境中回放的工具
+  verdict: 用 Python 装饰器录制和回放 API、队列等操作。
+  status: 收藏
+- repo: rigvedrs/agentguard
+  category: 评测与可观测
+  tier: 值得看
+  what: 为 Agent 工具调用提供校验和预算限制的库
+  verdict: 保留作工具调用防错参考，尚未验证替换已有权限管线。
+  status: 收藏
+- repo: uber/ADR
+  category: 评测与可观测
+  tier: 值得看
+  what: 面向 Agent 可观测性、安全评测和威胁检测的平台
+  verdict: 围绕企业 Agent 的行为检测与响应组织安全控制。
+  status: 收藏
+- repo: vibrantlabsai/ragas
+  category: 评测与可观测
+  tier: 值得看
+  what: 评估 RAG 和模型应用效果的工具库
+  verdict: 提供 LLM 应用评测指标、测试数据生成与分析工具。
+  status: 收藏
+- repo: y0usaf/pi-jev
+  category: 评测与可观测
+  tier: 值得看
+  what: 为 Pi 增加工具调用判断与结构化决策的扩展
+  verdict: 以带概率的类型化问题完成判断、选择和排序。
+  status: 收藏
+- repo: evidentlyai/evidently
+  category: 评测与可观测
+  tier: 看过没选
+  what: 用于模型评估和可观测性的框架
+  verdict: 与已有评测和观测能力重复，扩展到完整流程还需较多工程适配。
+  status: 收藏
+- repo: microsoft/agent-lightning
+  category: 评测与可观测
+  tier: 看过没选
+  what: 使用运行轨迹与奖励训练 Agent 的框架
+  verdict: 主要面向 Agent 训练与强化学习，不匹配当时的提示词优化目标。
+  status: 收藏
+- repo: mlflow/mlflow
+  category: 评测与可观测
+  tier: 看过没选
+  what: 管理模型实验、提示词与评测的工程平台
+  verdict: 提示词和实验管理重复，另增数据同步、版本对应与发布维护成本。
+  status: 收藏
+- repo: promptfoo/promptfoo
+  category: 评测与可观测
+  tier: 看过没选
+  what: 通过配置进行提示词与模型回归测试的工具
+  verdict: 当时最多用作回归测试补充，不作为更完整优化流程的主平台。
+  status: 收藏
+- repo: TestRigor/testrigor-mcp
+  category: 评测与可观测
+  tier: 看过没选
+  what: 商业测试平台的 MCP 接入工具
+  verdict: 旧选型作为商业平台对照，预算与主缺陷系统条件不符时不优先。
+  status: 收藏
+- repo: X-PLUG/MobileAgent
+  category: 评测与可观测
+  tier: 看过没选
+  what: 在移动端界面执行任务的 Agent 研究项目
+  verdict: 旧选型认为缺用例、断言与报告闭环，只参考探索机制，不直接用于生产。
+  status: 收藏
+- repo: AlexsJones/llmfit
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 根据硬件筛选可运行本地模型的工具
+  verdict: 适合先缩小本地模型候选，估算不能替代真实设备上的任务测试。
+  status: 收藏
+- repo: farion1231/cc-switch
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 管理编程客户端模型供应商与代理配置的桌面工具
+  verdict: 有本机已安装记录，协议转换链路是否接通需单独验收。
+  status: 试过
+- repo: firecrawl/pdf-inspector
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 检查 PDF 类型、页面并提取文本的 Rust 库
+  verdict: 旧选型明确建议作为通用 PDF 检查与提取组件，尚未确认接入完成。
+  status: 收藏
+- repo: gepa-ai/gepa
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 根据评测和失败反馈反思优化候选方案的算法库
+  verdict: 后续结论优先试独立优化算法；已有对局 PoC，泛化效果仍待验证。
+  status: 试过
+- repo: iOfficeAI/OfficeCLI
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 从命令行读写 Word、Excel 和 PowerPoint 的工具
+  verdict: 旧选型明确建议补齐文档生成能力，实际接入与产物质量待验证。
+  status: 收藏
+- repo: jackwener/OpenCLI
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 将网站能力转成可供 Agent 调用的命令行工具
+  verdict: 把已登录浏览器中的网站操作包装成确定性的 CLI 接口。
+  status: 收藏
+- repo: morluto/rea
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 从软件行为到二进制进行逆向分析的 Agent 工具
+  verdict: 提供跨语言文档与可阅读的浏览器自动化实现。
+  status: 收藏
+- repo: NVIDIA-NeMo/Switchyard
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 在模型与供应商之间路由请求的网关
+  verdict: 看中按任务分流模型的路由思路，节省幅度尚未自行验证。
+  status: 收藏
+- repo: tashfeenahmed/freellmapi
+  category: 编程工具与 CLI
+  tier: 精选
+  what: 聚合多个模型端点的 API 路由服务
+  verdict: 聚合多个免费模型渠道，统一为 OpenAI 兼容接口。
+  status: 收藏
+- repo: 0xNatoshi/jev-codex-router
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 为 Codex 按轮选择模型和推理深度的路由工具
+  verdict: 为 Codex 提供模型路由实现，可研究路由与原生工具的接缝。
+  status: 收藏
+- repo: basyxt/aimlapi
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 聚合模型接口与相关使用资料的项目
+  verdict: 集中列出多模型 API 接入方式，价格与可用性需使用时核对。
+  status: 收藏
+- repo: BillionsBobby/JevRouter
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 为模型、工具和子任务分配执行策略的路由器
+  verdict: 将模型、子 Agent、技能和工具合成同一个可选候选集。
+  status: 收藏
+- repo: BoundaryML/baml
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 以类型与结构化输出组织模型调用的开发工具
+  verdict: 用专门语言描述模型调用和结构化输出。
+  status: 收藏
+- repo: championswimmer/pi-context-prune
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 为 Pi 裁剪工具调用上下文的扩展
+  verdict: 结合上下文裁剪与前缀缓存机制控制会话体积。
+  status: 收藏
+- repo: deepseek-ai/DeepInfer
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 面向大模型推理的开源框架
+  verdict: 已核实推理框架定位，尚未自行部署。
+  status: 收藏
+- repo: deepseek-ai/deepseek-recipe
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 适配模型 API 协议与消息格式的工具库
+  verdict: 已核实协议适配定位，尚未自行部署。
+  status: 收藏
+- repo: gargpratyush/jev-router
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 按任务需求选择模型的路由工具
+  verdict: 按每轮任务难度自动选择模型，同时保留 CLI 原生机制。
+  status: 收藏
+- repo: klarkxy/open-console-gateway
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 统一管理模型订阅与 API 接口的本地网关
+  verdict: 统一管理订阅账号和 API，并连接到桌面应用。
+  status: 收藏
+- repo: larksuite/cli
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 供人和 Agent 调用协作平台能力的官方 CLI
+  verdict: 将飞书能力开放为 CLI，并配套 Agent 技能和认证入口。
+  status: 收藏
+- repo: larksuite/lark-openapi-mcp
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 调用协作平台开放接口的官方 MCP 服务
+  verdict: 提供飞书 OpenAPI 的 MCP 工具及开发文档检索入口。
+  status: 收藏
+- repo: MAXeaglet/commandcode-proxy
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 为编程客户端适配模型接口的代理
+  verdict: 用单文件代理把 Command Code API 转成兼容接口。
+  status: 收藏
+- repo: QingYunA/answer-me-with-html
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 将回答构建成单页 HTML 的工具
+  verdict: 将解释构建为单文件页面，支持离线阅读和可视化说明。
+  status: 收藏
+- repo: wonderwhy-er/DesktopCommanderMCP
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 向 Agent 提供终端、文件检索与编辑能力的 MCP 服务
+  verdict: 让 Agent 管理文件、执行终端命令与控制进程。
+  status: 收藏
+- repo: goauthentik/authentik
+  category: 编程工具与 CLI
+  tier: 看过没选
+  what: 统一身份认证与单点登录平台
+  verdict: 旧选型暂不引入企业 SSO，当时的学习产品没有这个刚需。
+  status: 收藏
+- repo: lyogavin/airllm
+  category: 编程工具与 CLI
+  tier: 看过没选
+  what: 通过分层加载降低大模型推理内存需求的工具
+  verdict: 旧调研未证明适合 24GB Mac 的日常高速推理，等待明确离线需求。
+  status: 收藏
+- repo: browser-use/jev-ultrafast
+  category: 浏览器与自动化
+  tier: 精选
+  what: 通过结构化决策驱动浏览器动作的实验工具
+  verdict: 看中只从已观察节点选择动作、执行前校验页面状态的约束。
+  status: 收藏
+- repo: citrolabs/ego-lite
+  category: 浏览器与自动化
+  tier: 精选
+  what: 与 Agent 共享登录态并执行网页操作的浏览器
+  verdict: 让人与 Agent 在独立任务空间中并行使用浏览器。
+  status: 收藏
+- repo: exa-labs/exa-mcp-server
+  category: 浏览器与自动化
+  tier: 精选
+  what: 提供网络搜索与抓取能力的 MCP 服务
+  verdict: 已有标准库直连初始化、工具发现和调用成功的记录，长期额度待验证。
+  status: 试过
+- repo: Panniantong/Agent-Reach
+  category: 浏览器与自动化
+  tier: 精选
+  what: 为 Agent 提供多平台搜索和原文读取的工具
+  verdict: 已安装并完成 GitHub 只读查询，部分渠道仍待各自验收。
+  status: 试过
+- repo: vercel-labs/agent-browser
+  category: 浏览器与自动化
+  tier: 精选
+  what: 供 Agent 操作浏览器的命令行工具
+  verdict: 旧调研作为日常浏览器的按需补充，适合批量操作和 CI。
+  status: 收藏
+- repo: beilunyang/openhongguo
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 获取短剧内容信息并附命令行播放工具的非官方 SDK
+  verdict: 已认真研究 SDK 的播放状态与调用责任，连续播放效果仍待验收。
+  status: 收藏
+- repo: browser-use/browser-use
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 使用模型理解页面并执行浏览器操作的库
+  verdict: 让 Agent 用浏览器完成跨页面、多步骤任务。
+  status: 收藏
+- repo: Genymobile/scrcpy
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 在电脑显示和控制 Android 设备的工具
+  verdict: 文档与设备列表已核对，真机控制及 Agent 操作链路尚未完成。
+  status: 收藏
+- repo: getmaxun/maxun
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 通过浏览器录制与自动化提取网页数据的平台
+  verdict: 将网页采集、监控与结构化 API 输出组合起来。
+  status: 收藏
+- repo: github/github-mcp-server
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 访问 GitHub 仓库、Issue 和 PR 的官方 MCP 服务
+  verdict: 以官方 MCP 接口连接 GitHub 仓库、代码及 Issue 管理。
+  status: 收藏
+- repo: jonnyzzz/tart-skills
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 在虚拟机里执行图形界面测试的技能
+  verdict: 将完整 macOS 虚拟机桌面开放给远程 Agent 操作。
+  status: 收藏
+- repo: krw82/jev-playwright-mcp
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 为 Playwright MCP 增加决策与页面筛选的代理
+  verdict: 在保留原 MCP 工具接口的代理层加入决策能力。
+  status: 收藏
+- repo: NanmiCoder/MediaCrawler
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 采集多个内容平台公开内容与评论的工具
+  verdict: 提供社交平台公开内容的采集实现，适合研究采集链路。
+  status: 收藏
+- repo: openai/tart
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 在 Apple Silicon 上管理虚拟机的工具
+  verdict: 考虑用于隔离桌面验收，当前仅做方案与脚本准备。
+  status: 收藏
+- repo: Skyvern-AI/skyvern
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 通过视觉理解执行网页任务的自动化框架
+  verdict: 结合大模型与视觉处理浏览器工作流。
+  status: 收藏
+- repo: trycua/cua
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 为 Agent 提供隔离电脑与操作能力的工具集
+  verdict: 考虑用独立桌面做原生应用验收，尚未搭建并跑通目标虚拟机。
+  status: 收藏
+- repo: firecrawl/firecrawl
+  category: 浏览器与自动化
+  tier: 看过没选
+  what: 获取网页正文并转成结构化内容的服务
+  verdict: 2026-08 暂缓：已有搜索 API，尚无批量网页正文采集刚需。
+  status: 收藏
+- repo: microsoft/flint-chart
+  category: 设计与前端
+  tier: 精选
+  what: 通过对话生成和调整图表的工具
+  verdict: 旧调研列为图表能力候选，具体接入与效果仍待验证。
+  status: 收藏
+- repo: storytold/craft-anything
+  category: 设计与前端
+  tier: 精选
+  what: 分析现有软件并辅助重建交互的工具
+  verdict: 观察网站、应用和游戏的行为，再辅助制作自己的版本。
+  status: 收藏
+- repo: zhiyiYo/PyQt-Fluent-Widgets
+  category: 设计与前端
+  tier: 值得看
+  what: 提供 Fluent 风格界面组件的 Qt 组件库
+  verdict: 旧调研认为可加快 Qt 界面开发，未确认本人已采用。
+  status: 收藏
+- repo: ZSeven-W/openpencil
+  category: 设计与前端
+  tier: 值得看
+  what: 支持 Agent 协作的矢量与界面设计工具
+  verdict: 旧调研保留为设计参考，尚未完成目标工作流的接入验证。
+  status: 收藏
+- repo: jihe520/Agentic-Desktop-Pet
+  category: 设计与前端
+  tier: 看过没选
+  what: 基于 Godot 的 Agent 桌面宠物项目
+  verdict: 旧试用中透明区域仍拦截点击，未满足鼠标穿透要求。
+  status: 试过
+- repo: nodegui/nodegui
+  category: 设计与前端
+  tier: 看过没选
+  what: 基于 Qt 构建桌面应用的 JavaScript 框架
+  verdict: 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。
+  status: 收藏
+- repo: freestylefly/awesome-gpt-image-2
+  category: 图片视频与 3D
+  tier: 精选
+  what: 图片生成模型的提示词与案例合集
+  verdict: 把生图案例整理为可复用的代码化提示词和模板。
+  status: 收藏
+- repo: gpt-image2/awesome-gptimage2-prompts
+  category: 图片视频与 3D
+  tier: 精选
+  what: 收集图片生成提示词和样例的资料库
+  verdict: 以 prompts.json 保存结构化生图提示词与案例。
+  status: 收藏
+- repo: heygen-com/hyperframes
+  category: 图片视频与 3D
+  tier: 精选
+  what: 将 HTML 画面渲染成视频的工具
+  verdict: 当次视频方案明确选择 HTML 到视频路线，实际渲染效果待验证。
+  status: 收藏
+- repo: JiaFeiMiao-K-Cat/DiscImageStudio
+  category: 图片视频与 3D
+  tier: 精选
+  what: 将图片刻蚀成光盘盘面可见图案的设计与刻录工具
+  verdict: 把图像编码为光盘数据，使刻录后的盘面呈现可见图案。
+  status: 收藏
+- repo: lightningpixel/modly
+  category: 图片视频与 3D
+  tier: 精选
+  what: 在本地由图片或文本生成 3D 模型的桌面工具
+  verdict: 在本地 GPU 上运行图片转 3D 模型，提供跨平台桌面界面。
+  status: 收藏
+- repo: motion-canvas/motion-canvas
+  category: 图片视频与 3D
+  tier: 精选
+  what: 用代码制作动画和可视化视频的框架
+  verdict: 用 TypeScript 生成器编写动画，并实时预览。
+  status: 收藏
+- repo: pablostanley/yoinks
+  category: 图片视频与 3D
+  tier: 精选
+  what: 围绕视频下载和格式选择提供交互的命令行工具
+  verdict: 更值得借贴链接、选格式和下载的交互，已有引擎无需重复建设。
+  status: 收藏
+- repo: earthtojake/text-to-cad
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 将文本需求转成 CAD 模型的实验工具
+  verdict: 已做 CAD 能力调研，真实制造需求与生成结果尚未验证。
+  status: 收藏
+- repo: google-research/papervizagent
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 辅助科研图形制作的研究项目
+  verdict: 提供科研图形制作的研究实现，可对照论文阅读。
+  status: 收藏
+- repo: harry0703/MoneyPrinterTurbo
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 根据主题自动生成短视频的工具
+  verdict: 从主题串联脚本、素材、字幕、音乐及视频合成。
+  status: 收藏
+- repo: Kai-Jungsthoefel/SOMA
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 与编程 Agent 协作设计参数化 CAD 模型的应用
+  verdict: 将代码工作区、版本管理与实时 3D 预览组合成 CAD 设计流程。
+  status: 收藏
+- repo: Tencent-Hunyuan/Hunyuan3D-WorldClaw
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 通过 Agent 组织开放世界 3D 生成的框架
+  verdict: 以 Agent 编排开放世界 3D 内容的规模化生成。
+  status: 收藏
+- repo: Vincentwei1021/video-shotcraft
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 结合镜头配方与 Remotion 制作宣传视频的技能
+  verdict: 从真实页面取景，组合镜头配方并用 Remotion 制作视频。
+  status: 收藏
+- repo: youart-open-source/awesome-gpt-image-2-5-prompts
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 包含图片生成提示词、案例与构建材料的资源库
+  verdict: 按用途整理生图提示词，并保留创作者和原始出处。
+  status: 收藏
+- repo: ZeroLu/awesome-gpt-image
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 图片生成提示词和案例的资源合集
+  verdict: 按多语言入口整理图片提示词和生成案例。
+  status: 收藏
+- repo: exodrifter/unity-python
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 在 Unity 中运行 Python 的旧插件
+  verdict: 旧技术调研指出仅支持旧 Python 且维护停滞，不适合新的桌宠方案。
+  status: 收藏
+- repo: offchan42/Unity3D-Python-Communication
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 在 Unity 与 Python 进程间通信的示例
+  verdict: 旧技术调研记录长期未更新，未选作新的桌宠技术底座。
+  status: 收藏
+- repo: OpenMontageInc/OpenMontage
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 组织脚本、分镜、素材与合成的视频制作工具
+  verdict: 2026-10 暂不整套引入，只参考分阶段编排与审批机制。
+  status: 收藏
+- repo: remotion-dev/remotion
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 使用 React 编程制作视频的框架
+  verdict: 当次视频方案选择 HTML 渲染工具，React 开发与许可成本不适合该需求。
+  status: 收藏
+- repo: shawnwei512/video-transcript-mcp
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 从视频链接获取字幕或语音转写的 MCP 工具
+  verdict: PoC 遇到依赖、登录态和诊断限制，选择复用现有链路而不维护新 Fork。
+  status: 试过
+- repo: touilleMan/godot-python
+  category: 图片视频与 3D
+  tier: 看过没选
+  what: 为 Godot 提供 Python 绑定的插件
+  verdict: 旧技术调研指出不支持目标 Godot 大版本，未选为 Python 接入方案。
+  status: 收藏
+- repo: Aoi0420/Word-Force
+  category: 学习资源
+  tier: 精选
+  what: 无需后端的极简记单词工具
+  verdict: 单 HTML 文件即可离线使用，并支持导入自定义词库。
+  status: 收藏
+- repo: bojieli/ai-agent-book
+  category: 学习资源
+  tier: 精选
+  what: 讲解 Agent 原理与工程实践的开源书籍
+  verdict: 知识库已把它列为按问题查原理、对照源码做最小实验的学习入口。
+  status: 收藏
+- repo: HKUDS/DeepTutor
+  category: 学习资源
+  tier: 精选
+  what: 提供个性化辅导与知识组织能力的学习平台
+  verdict: 看中来源溯源、掌握度和能力插件化，借设计而不整套复制架构。
+  status: 收藏
+- repo: matsonj/based-eval
+  category: 学习资源
+  tier: 精选
+  what: 包含词语联想游戏与优化实验的项目
+  verdict: 已用词语联想对局做本地 PoC，单盘变化不代表稳定的优化收益。
+  status: 试过
+- repo: microsoft/AI-For-Beginners
+  category: 学习资源
+  tier: 精选
+  what: 人工智能基础课程与配套练习
+  verdict: 以课程、测验和实验组织人工智能基础学习。
+  status: 收藏
+- repo: Philip-Cao-9527/code-note-helper
+  category: 学习资源
+  tier: 精选
+  what: 辅助生成刷题与 AI 学习复盘笔记的浏览器扩展
+  verdict: 把刷题复盘、间隔复习与长 AI 对话整理放到浏览器扩展中。
+  status: 收藏
+- repo: shareAI-lab/claw0
+  category: 学习资源
+  tier: 精选
+  what: 从零拆解并实现个人 Agent 的教程
+  verdict: 用逐节可运行的 Python 文件拆解 Agent 网关实现。
+  status: 收藏
+- repo: shareAI-lab/learn-claude-code
+  category: 学习资源
+  tier: 精选
+  what: 从简单循环逐步实现编程 Agent 的教学项目
+  verdict: 知识库列为从 Agent 循环开始对照源码学习的入口。
+  status: 收藏
+- repo: TapXWorld/ChinaTextbook
+  category: 学习资源
+  tier: 精选
+  what: 收集各学段 PDF 教材的资源库
+  verdict: 旧调研记录了本人对教材资源的正面反馈，尚不等于已接入。
+  status: 收藏
+- repo: 2002XiaoYu/Latest-front-end-Notes
+  category: 学习资源
+  tier: 值得看
+  what: 前后端开发笔记与学习资料合集
+  verdict: 集中整理前后端笔记、源码分析与案例资料。
+  status: 收藏
+- repo: AlvinMacaraeg/ccna-ai-tutor
+  category: 学习资源
+  tier: 值得看
+  what: 围绕网络认证知识制作的 AI 学习项目
+  verdict: 在终端中结合 AI 讲解和练习组织 CCNA 备考。
+  status: 收藏
+- repo: happycola233/tchMaterial-parser
+  category: 学习资源
+  tier: 值得看
+  what: 获取公开教材 PDF 地址与下载文件的工具
+  verdict: 批量解析教材预览地址，支持跳过已下载文件和任务管理。
+  status: 收藏
+- repo: MakazhanAlpamys/Soup
+  category: 学习资源
+  tier: 值得看
+  what: 通过配置组织模型后训练流程的命令行工具
+  verdict: 用同一份配置和命令组织模型微调与后训练。
+  status: 收藏
+- repo: mdn/translated-content
+  category: 学习资源
+  tier: 值得看
+  what: MDN Web 文档的翻译内容仓库
+  verdict: 提供 MDN Web 文档的多语言翻译与贡献规范。
+  status: 收藏
+- repo: microsoft/generative-ai-for-beginners
+  category: 学习资源
+  tier: 值得看
+  what: 生成式 AI 入门课程与代码练习
+  verdict: 用分节课程和配套代码带入生成式 AI 应用开发。
+  status: 收藏
+- repo: PrimeIntellect-ai/lab-cookbook
+  category: 学习资源
+  tier: 值得看
+  what: 包含提示词优化等实验教程的资料集
+  verdict: 按步骤覆盖 Agent 创建、评测、训练与部署实验。
+  status: 收藏
+- repo: will-17173/coding-plan-collection
+  category: 学习资源
+  tier: 值得看
+  what: 汇总 AI 编程订阅方案与使用信息的资料库
+  verdict: 按套餐类型集中比较 AI 编程与 Token 方案。
+  status: 收藏
+- repo: cactus-compute/needle
+  category: 学习资源
+  tier: 看过没选
+  what: 面向本地模型推理的工具项目
+  verdict: 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。
+  status: 收藏
+- repo: unslothai/unsloth
+  category: 学习资源
+  tier: 看过没选
+  what: 在本地运行和微调模型的工具
+  verdict: 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。
+  status: 收藏
+- repo: CLoaKY233/siltop
+  category: 效率与 Mac 工具
+  tier: 精选
+  what: 查看 Apple Silicon 资源、功耗与温度的终端工具
+  verdict: 集中显示 Apple Silicon 的 CPU、GPU、功耗、温度与进程。
+  status: 收藏
+- repo: KnifeLemon/Filee
+  category: 效率与 Mac 工具
+  tier: 精选
+  what: 通过拖放离线转换多种文件格式的桌面应用
+  verdict: 明确收藏为离线转换候选，Mac 稳定性和格式保真仍待试用。
+  status: 收藏
+- repo: tisfeng/Easydict
+  category: 效率与 Mac 工具
+  tier: 精选
+  what: 支持查词、翻译和 OCR 的 Mac 应用
+  verdict: 结合输入、划词和截图 OCR，聚合多种翻译结果。
+  status: 收藏
+- repo: MohtashamMurshid/getdesign
+  category: 效率与 Mac 工具
+  tier: 值得看
+  what: 从网页按需提取设计系统的工具
+  verdict: 从真实 CSS 生成含颜色、排版和组件规则的 design.md。
+  status: 收藏
+- repo: 666ghj/BettaFish
+  category: 游戏与趣味
+  tier: 精选
+  what: 基于多 Agent 的舆情资料分析工具
+  verdict: 用多个 Agent 组织公开社媒与评论资料的分析。
+  status: 收藏
+- repo: 666ghj/MiroFish
+  category: 游戏与趣味
+  tier: 精选
+  what: 通过多 Agent 模拟探索群体行为的工具
+  verdict: 从种子材料构建多 Agent 模拟世界，供群体行为实验。
+  status: 收藏
+- repo: HELPMEEADICE/BANDORI-PET-REV
+  category: 游戏与趣味
+  tier: 精选
+  what: 基于 Live2D 的角色桌面宠物
+  verdict: 用 Live2D 与 PySide6 组合角色、服装和桌面互动。
+  status: 收藏
+- repo: IllegalCreed/type-pal
+  category: 游戏与趣味
+  tier: 精选
+  what: 使用 TypeScript 重写经典仙侠游戏的项目
+  verdict: 用 TypeScript 重写可在浏览器游玩的经典仙侠游戏。
+  status: 收藏
+- repo: shinyflvre/Mate-Engine
+  category: 游戏与趣味
+  tier: 精选
+  what: 支持 VRM 角色与交互动作的桌面宠物引擎
+  verdict: 旧记录实测鼠标穿透与交互有效，当时只有 Windows 支持。
+  status: 试过
+- repo: a16z-infra/ai-town
+  category: 游戏与趣味
+  tier: 值得看
+  what: 模拟多角色日常互动的 AI 小镇
+  verdict: 提供可部署和定制的 AI 角色生活与社交小镇。
+  status: 收藏
+- repo: ChaozhongLiu/DyberPet
+  category: 游戏与趣味
+  tier: 值得看
+  what: 基于 PySide 的桌面宠物框架
+  verdict: 通过 JSON 模组扩展宠物、物品和音效，AI 接入为可选项。
+  status: 收藏
+- repo: godotengine/godot
+  category: 游戏与趣味
+  tier: 值得看
+  what: 支持 2D 与 3D 游戏开发的引擎
+  verdict: 用统一界面开发 2D、3D 游戏并导出到多个平台。
+  status: 收藏
+- repo: joonspk-research/generative_agents
+  category: 游戏与趣味
+  tier: 值得看
+  what: 模拟角色记忆与社交行为的研究项目
+  verdict: 提供角色记忆、计划和社交行为模拟的论文配套实现。
+  status: 收藏
+- repo: LorisYounger/VPet
+  category: 游戏与趣味
+  tier: 值得看
+  what: 通过帧动画表现角色的桌面宠物模拟器
+  verdict: 结合角色互动、投喂、动画和创意工坊扩展。
+  status: 收藏
+- repo: mindcraft-bots/mindcraft
+  category: 游戏与趣味
+  tier: 值得看
+  what: 通过模型与机器人接口控制 Minecraft 角色的工具
+  verdict: 符合 AI 采集与建设的兴趣，但需要游戏和模型，尚未亲自验收。
+  status: 收藏
+- repo: SillyTavern/SillyTavern
+  category: 游戏与趣味
+  tier: 值得看
+  what: 面向角色与长对话的模型聊天前端
+  verdict: 以同一前端接多种模型 API，并组合角色设定、语音与图像工具。
+  status: 收藏
+- repo: wytyKen/awesome-whale-girl
+  category: 游戏与趣味
+  tier: 值得看
+  what: AI 角色的人设、素材与互动资源合集
+  verdict: 围绕同一角色汇集人设、素材、记忆与社交互动项目。
+  status: 收藏
+- repo: YGYOOO/WorldX
+  category: 游戏与趣味
+  tier: 值得看
+  what: 根据描述生成角色和地图的 AI 世界模拟器
+  verdict: 角色可自主行动与建立关系，用户可注入事件和编辑记忆。
+  status: 收藏
+- repo: zorrobyte/rimagent
+  category: 游戏与趣味
+  tier: 值得看
+  what: 让大模型在环世界执行行动的实验 Agent
+  verdict: 符合观察 AI 真正行动的游戏兴趣，尚未在自己的游戏环境验收。
+  status: 收藏
+- repo: ai-job-search-dev/ai-job-search
+  category: 生活
+  tier: 精选
+  what: 围绕岗位评估、简历与面试组织求职流程的框架
+  verdict: 明确收藏为求职流程参考，国内招聘场景适配尚待核实。
+  status: 收藏
+- repo: auscaster/frantic-board
+  category: 生活
+  tier: 精选
+  what: 发布 AI Agent 赏金任务的公开看板
+  verdict: 把真实待办与赏金公开，按交付结果核验任务。
+  status: 收藏
+- repo: eternity4719/HowToLiveBetter
+  category: 生活
+  tier: 精选
+  what: 按生活问题组织经验与参考资料的知识库
+  verdict: 已作为生活问题的技能参考入口，具体条目仍需核对来源和时效。
+  status: 收藏
+- repo: profullstack/agenticjobs
+  category: 生活
+  tier: 精选
+  what: 发布和认领 Agent 开发任务的平台
+  verdict: 有修复被上游合并的实际贡献记录，任务接受和报酬到账分开看。
+  status: 试过
+- repo: amitgambhir/crushit
+  category: 生活
+  tier: 值得看
+  what: 用任务与奖励组织家庭协作的应用
+  verdict: 让孩子完成家庭任务获取积分，再兑换家长设置的奖励。
+  status: 收藏
+- repo: ErTasselli/OpenTerminal
+  category: 生活
+  tier: 值得看
+  what: 以终端界面展示公开金融市场数据的工具
+  verdict: 以免费公开市场数据构建键盘驱动的终端式工作台。
+  status: 收藏
+- repo: shengjidaguai-china/BossHunter
+  category: 生活
+  tier: 值得看
+  what: 辅助职位筛选、简历和求职跟进的工具
+  verdict: 已检查本机求职工具与 Agent API，材料准确性和实际流程待验证。
+  status: 收藏
+- repo: tempus2016/taskmate
+  category: 生活
+  tier: 值得看
+  what: 结合家庭任务与奖励的管理工具
+  verdict: 在 Home Assistant 中管理家务、奖励及连续完成记录。
+  status: 收藏
+- repo: ZhuLinsen/daily_stock_analysis
+  category: 生活
+  tier: 值得看
+  what: 分析股票行情与新闻并生成推送的工具
+  verdict: 将自选股行情和新闻分析生成仪表盘并推送到多个渠道。
+  status: 收藏
+- repo: DuarteSantos8/openGym
+  category: 生活
+  tier: 看过没选
+  what: 记录健身训练并提供 API 与 MCP 的应用
+  verdict: 整套合入会重复前端和训练数据，先独立体验，再考虑 API/MCP。
+  status: 收藏
+own_projects:
+- repo: bmdy6/bmdy6
+  what: 个人 GitHub 主页说明
+- repo: bmdy6/knowledge-mcp
+  what: 以 Markdown 为知识源、Git 为版本边界并提供受保护 MCP 访问的知识库
+- repo: bmdy6/research-mcp
+  what: 为 Agent 提供多来源搜索与原文读取的 CLI 和 MCP
+- repo: bmdy6/skill-design-from-sites
+  what: 从参考网站提取可追溯设计依据的 Agent 技能
+- repo: bmdy6/skill-readme-from-code
+  what: 按源码和实际命令编写 README 的 Agent 技能
+- repo: bmdy6/skill-style-polish
+  what: 从会话提取文风并保持原意润色的技能
+- repo: bmdy6/stylepolish
+  what: 在 Mac 输入框停笔后提供润色的菜单栏应用
