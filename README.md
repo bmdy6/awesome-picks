@@ -9,6 +9,23 @@
 状态只用 **在用 / 试过 / 收藏**；收藏不代表已试用，历史试用也不代表持续在用。
 “为什么收藏”优先保留已有判断；缺少判断时概括仓库 README 的客观亮点，不代表效果已经验证。
 
+## 从这几个开始
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/stablyai/orca"><img src="https://opengraph.githubassets.com/1/stablyai/orca" width="400" alt="stablyai/orca GitHub 仓库社交图"></a><br><strong><a href="https://github.com/stablyai/orca">stablyai/orca</a></strong> · 在用<br>统一管理本地与远程编程 Agent 会话的工作台</td>
+<td width="50%" valign="top"><a href="https://github.com/NousResearch/hermes-agent"><img src="https://opengraph.githubassets.com/1/NousResearch/hermes-agent" width="400" alt="NousResearch/hermes-agent GitHub 仓库社交图"></a><br><strong><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></strong> · 试过<br>支持工具、技能和长期任务的个人 Agent</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/obra/superpowers"><img src="https://opengraph.githubassets.com/1/obra/superpowers" width="400" alt="obra/superpowers GitHub 仓库社交图"></a><br><strong><a href="https://github.com/obra/superpowers">obra/superpowers</a></strong> · 收藏<br>组织 Agent 开发流程与工程规范的技能框架</td>
+<td width="50%" valign="top"><a href="https://github.com/farion1231/cc-switch"><img src="https://opengraph.githubassets.com/1/farion1231/cc-switch" width="400" alt="farion1231/cc-switch GitHub 仓库社交图"></a><br><strong><a href="https://github.com/farion1231/cc-switch">farion1231/cc-switch</a></strong> · 试过<br>管理编程客户端模型供应商与代理配置的桌面工具</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://github.com/exa-labs/exa-mcp-server"><img src="https://opengraph.githubassets.com/1/exa-labs/exa-mcp-server" width="400" alt="exa-labs/exa-mcp-server GitHub 仓库社交图"></a><br><strong><a href="https://github.com/exa-labs/exa-mcp-server">exa-labs/exa-mcp-server</a></strong> · 试过<br>提供网络搜索与抓取能力的 MCP 服务</td>
+<td width="50%" valign="top"><a href="https://github.com/Panniantong/Agent-Reach"><img src="https://opengraph.githubassets.com/1/Panniantong/Agent-Reach" width="400" alt="Panniantong/Agent-Reach GitHub 仓库社交图"></a><br><strong><a href="https://github.com/Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></strong> · 试过<br>为 Agent 提供多平台搜索和原文读取的工具</td>
+</tr>
+</table>
+
 ## 目录
 
 - [AI Agent 与框架](#category-1)
