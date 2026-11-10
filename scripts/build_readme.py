@@ -52,6 +52,20 @@ def table(rows):
     return lines
 
 
+def starter_cards(repos):
+    picks = ['stablyai/orca', 'NousResearch/hermes-agent', 'obra/superpowers',
+             'farion1231/cc-switch', 'exa-labs/exa-mcp-server', 'Panniantong/Agent-Reach']
+    selected = [next(r for r in repos if r['repo'] == name and r['tier'] == '精选') for name in picks]
+    lines = ['## 从这几个开始', '', '<table>']
+    for i in range(0, len(selected), 2):
+        lines.append('<tr>')
+        for row in selected[i:i + 2]:
+            name = row['repo']
+            lines.append(f'<td width="50%" valign="top"><a href="https://github.com/{name}"><img src="https://opengraph.githubassets.com/1/{name}" width="400" alt="{name} GitHub 仓库社交图"></a><br><strong><a href="https://github.com/{name}">{name}</a></strong> · {row["status"]}<br>{cell(row["what"])}</td>')
+        lines.append('</tr>')
+    return lines + ['</table>', '']
+
+
 def render(data):
     validate(data)
     repos, own = data['repos'], data['own_projects']
@@ -62,7 +76,7 @@ def render(data):
              '- **值得看**：有阅读、讨论或调研线索，尚未形成采用结论。',
              '- **看过没选**：保留当时暂缓或不用的理由，只针对原场景。', '',
              '状态只用 **在用 / 试过 / 收藏**；收藏不代表已试用，历史试用也不代表持续在用。',
-             '“为什么收藏”优先保留已有判断；缺少判断时概括仓库 README 的客观亮点，不代表效果已经验证。', '', '## 目录', '']
+             '“为什么收藏”优先保留已有判断；缺少判断时概括仓库 README 的客观亮点，不代表效果已经验证。', '', *starter_cards(repos), '## 目录', '']
     lines += [f'- [{category}](#category-{i})' for i, category in enumerate(categories, 1)]
     lines += ['- [我自己的项目](#own-projects)', '- [维护方式](#maintenance)', '',
               f"外部项目 **{len(repos)}** 个：精选 {tiers['精选']}、值得看 {tiers['值得看']}、看过没选 {tiers['看过没选']}；自有公开项目 **{len(own)}** 个。", f"整理日期：{data['updated_at']}。", '']
