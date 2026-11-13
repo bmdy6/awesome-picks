@@ -1,4 +1,4 @@
-updated_at: '2026-11-09'
+updated_at: '2026-11-13'
 repos:
 - repo: bagidea/bagidea-office
   category: AI Agent 与框架
@@ -437,6 +437,12 @@ repos:
   tier: 值得看
   what: 收集 AI 产品系统提示词与工具定义的资料库
   verdict: 汇集 AI 工具的提示词和相关资料，供对照阅读。
+  status: 收藏
+- repo: rohitg00/agentmemory
+  category: 记忆与知识库
+  tier: 精选
+  what: 为 Codex CLI 等编程助手保存和检索跨会话上下文的工具
+  verdict: 换助手时能否接着做同一项目值得验证，先用测试项目观察它会记录哪些会话内容。
   status: 收藏
 - repo: colbymchenry/codegraph
   category: 记忆与知识库
@@ -918,6 +924,12 @@ repos:
   what: 通过分层加载降低大模型推理内存需求的工具
   verdict: 旧调研未证明适合 24GB Mac 的日常高速推理，等待明确离线需求。
   status: 收藏
+- repo: vercel-labs/agent-desktop
+  category: 浏览器与自动化
+  tier: 精选
+  what: 通过系统辅助功能识别、点击和填写 Mac 等平台的桌面应用控件的 CLI
+  verdict: 想用 Codex 操作 Finder、TextEdit 这类桌面应用，先验证本机能否定位控件、输入并读回。
+  status: 收藏
 - repo: browser-use/jev-ultrafast
   category: 浏览器与自动化
   tier: 精选
@@ -1032,6 +1044,18 @@ repos:
   what: 分析现有软件并辅助重建交互的工具
   verdict: 观察网站、应用和游戏的行为，再辅助制作自己的版本。
   status: 收藏
+- repo: emilkowalski/skills
+  category: 设计与前端
+  tier: 值得看
+  what: 为界面动效与交互细节提供设计和审查建议的技能
+  verdict: 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。
+  status: 收藏
+- repo: yetone/native-feel-skill
+  category: 设计与前端
+  tier: 值得看
+  what: 帮助设计和审查具有原生体验的跨平台桌面应用的技能
+  verdict: 改 Mac 应用的菜单栏、快捷键和窗口交互时，可以借用它的检查清单。
+  status: 收藏
 - repo: zhiyiYo/PyQt-Fluent-Widgets
   category: 设计与前端
   tier: 值得看
@@ -1056,6 +1080,17 @@ repos:
   what: 基于 Qt 构建桌面应用的 JavaScript 框架
   verdict: 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。
   status: 收藏
+- repo: nexu-io/openmotion
+  category: 图片视频与 3D
+  tier: 值得看
+  what: 用 HTML 制作视频、在时间线上调整镜头并导出 MP4 的工具
+  verdict: 做需要反复改字幕、转场和镜头时长的产品短片时值得试。
+  status: 收藏
+  preview:
+    image: https://raw.githubusercontent.com/nexu-io/openmotion/4d50b9dd7c9a6270cb53ea19bad9e969f721d07a/docs/readme/brand-hero.jpg
+    url: https://github.com/nexu-io/openmotion#openmotion
+    alt: OpenMotion 官方示例，上方是原片与重制画面对照，下方是编辑时间线
+    caption: 在下方时间线上调整每段镜头的时长。图片来自 OpenMotion 官方演示。
 - repo: freestylefly/awesome-gpt-image-2
   category: 图片视频与 3D
   tier: 精选

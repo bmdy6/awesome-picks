@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **245** 个：精选 67、值得看 151、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-09。
+外部项目 **250** 个：精选 69、值得看 154、看过没选 27；自有公开项目 **7** 个。
+整理日期：2026-11-13。
 
 <a id="category-1"></a>
 
@@ -160,7 +160,7 @@
 
 ## 记忆与知识库
 
-### 精选（7）
+### 精选（8）
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -170,6 +170,7 @@
 | [langchain-ai/langmem](https://github.com/langchain-ai/langmem) | 为 Agent 构建长期记忆的工具库 | 从对话抽取长期信息，并提供记忆和行为优化工具。 | 收藏 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 为 Agent 保存和检索长期记忆的基础组件 | 提供面向 AI 应用的长期记忆层。 | 收藏 |
 | [paperboytm/spool](https://github.com/paperboytm/spool) | 保存、分享与恢复编程 Agent 会话的工具 | 把真实 Agent 会话转成可阅读、分享和续接的网页。 | 收藏 |
+| [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) | 为 Codex CLI 等编程助手保存和检索跨会话上下文的工具 | 换助手时能否接着做同一项目值得验证，先用测试项目观察它会记录哪些会话内容。 | 收藏 |
 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 把会话、文档和代码组织成共享记忆的工具 | 让多个 Agent 共享同一个记忆服务。 | 收藏 |
 
 ### 看过没选（2）
@@ -303,7 +304,7 @@
 
 ## 浏览器与自动化
 
-### 精选（5）
+### 精选（6）
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -312,6 +313,7 @@
 | [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) | 提供网络搜索与抓取能力的 MCP 服务 | 已有标准库直连初始化、工具发现和调用成功的记录，长期额度待验证。 | 试过 |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 为 Agent 提供多平台搜索和原文读取的工具 | 已安装并完成 GitHub 只读查询，部分渠道仍待各自验收。 | 试过 |
 | [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser) | 供 Agent 操作浏览器的命令行工具 | 旧调研作为日常浏览器的按需补充，适合批量操作和 CI。 | 收藏 |
+| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | 通过系统辅助功能识别、点击和填写 Mac 等平台的桌面应用控件的 CLI | 想用 Codex 操作 Finder、TextEdit 这类桌面应用，先验证本机能否定位控件、输入并读回。 | 收藏 |
 
 ### 看过没选（1）
 
@@ -355,10 +357,12 @@
 | [jihe520/Agentic-Desktop-Pet](https://github.com/jihe520/Agentic-Desktop-Pet) | 基于 Godot 的 Agent 桌面宠物项目 | 旧试用中透明区域仍拦截点击，未满足鼠标穿透要求。 | 试过 |
 | [nodegui/nodegui](https://github.com/nodegui/nodegui) | 基于 Qt 构建桌面应用的 JavaScript 框架 | 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。 | 收藏 |
 
-<details><summary>值得看（2）</summary>
+<details><summary>值得看（4）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
+| [emilkowalski/skills](https://github.com/emilkowalski/skills) | 为界面动效与交互细节提供设计和审查建议的技能 | 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。 | 收藏 |
+| [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | 帮助设计和审查具有原生体验的跨平台桌面应用的技能 | 改 Mac 应用的菜单栏、快捷键和窗口交互时，可以借用它的检查清单。 | 收藏 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | 提供 Fluent 风格界面组件的 Qt 组件库 | 旧调研认为可加快 Qt 界面开发，未确认本人已采用。 | 收藏 |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 支持 Agent 协作的矢量与界面设计工具 | 旧调研保留为设计参考，尚未完成目标工作流的接入验证。 | 收藏 |
 
@@ -367,6 +371,9 @@
 <a id="category-8"></a>
 
 ## 图片视频与 3D
+
+<p><a href="https://github.com/nexu-io/openmotion#openmotion"><img src="https://raw.githubusercontent.com/nexu-io/openmotion/4d50b9dd7c9a6270cb53ea19bad9e969f721d07a/docs/readme/brand-hero.jpg" width="720" alt="OpenMotion 官方示例，上方是原片与重制画面对照，下方是编辑时间线"></a><br>
+<strong><a href="https://github.com/nexu-io/openmotion#openmotion">nexu-io/openmotion</a></strong> · 在下方时间线上调整每段镜头的时长。图片来自 OpenMotion 官方演示。</p>
 
 ### 精选（7）
 
@@ -391,7 +398,7 @@
 | [shawnwei512/video-transcript-mcp](https://github.com/shawnwei512/video-transcript-mcp) | 从视频链接获取字幕或语音转写的 MCP 工具 | PoC 遇到依赖、登录态和诊断限制，选择复用现有链路而不维护新 Fork。 | 试过 |
 | [touilleMan/godot-python](https://github.com/touilleMan/godot-python) | 为 Godot 提供 Python 绑定的插件 | 旧技术调研指出不支持目标 Godot 大版本，未选为 Python 接入方案。 | 收藏 |
 
-<details><summary>值得看（8）</summary>
+<details><summary>值得看（9）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -399,6 +406,7 @@
 | [google-research/papervizagent](https://github.com/google-research/papervizagent) | 辅助科研图形制作的研究项目 | 提供科研图形制作的研究实现，可对照论文阅读。 | 收藏 |
 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 根据主题自动生成短视频的工具 | 从主题串联脚本、素材、字幕、音乐及视频合成。 | 收藏 |
 | [Kai-Jungsthoefel/SOMA](https://github.com/Kai-Jungsthoefel/SOMA) | 与编程 Agent 协作设计参数化 CAD 模型的应用 | 将代码工作区、版本管理与实时 3D 预览组合成 CAD 设计流程。 | 收藏 |
+| [nexu-io/openmotion](https://github.com/nexu-io/openmotion) | 用 HTML 制作视频、在时间线上调整镜头并导出 MP4 的工具 | 做需要反复改字幕、转场和镜头时长的产品短片时值得试。 | 收藏 |
 | [Tencent-Hunyuan/Hunyuan3D-WorldClaw](https://github.com/Tencent-Hunyuan/Hunyuan3D-WorldClaw) | 通过 Agent 组织开放世界 3D 生成的框架 | 以 Agent 编排开放世界 3D 内容的规模化生成。 | 收藏 |
 | [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) | 结合镜头配方与 Remotion 制作宣传视频的技能 | 从真实页面取景，组合镜头配方并用 Remotion 制作视频。 | 收藏 |
 | [youart-open-source/awesome-gpt-image-2-5-prompts](https://github.com/youart-open-source/awesome-gpt-image-2-5-prompts) | 包含图片生成提示词、案例与构建材料的资源库 | 按用途整理生图提示词，并保留创作者和原始出处。 | 收藏 |
@@ -536,6 +544,8 @@
 唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。
 
 新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。
+
+能用截图讲清用途的项目可加 `preview`。填写公开截图地址 `image`、官方演示链接 `url`、替代文字 `alt` 和图注 `caption`。
 
 ```bash
 python3 -m pip install PyYAML==6.0.3

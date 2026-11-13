@@ -7,12 +7,25 @@ from html import escape
 from pathlib import Path
 import re
 import sys
+from urllib.parse import urlsplit
 
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 TIERS = ('精选', '值得看', '看过没选')
 STATUSES = ('在用', '试过', '收藏')
+
+
+def single_line_text(value):
+    return isinstance(value, str) and bool(value.strip()) and value.splitlines() == [value]
+
+
+def public_https_url(value):
+    try:
+        parts = urlsplit(value)
+        return parts.scheme == 'https' and bool(parts.hostname) and parts.username is None and not any(c.isspace() for c in value)
+    except ValueError:
+        return False
 
 
 def validate(data):
@@ -26,8 +39,9 @@ def validate(data):
     for group, fields in [('repos', {'repo', 'category', 'tier', 'what', 'verdict', 'status'}), ('own_projects', {'repo', 'what'})]:
         require(isinstance(data[group], list) and data[group], f'{group} must be a nonempty list')
         for row in data[group]:
-            require(isinstance(row, dict) and set(row) == fields, f'{group}: invalid fields')
-            require(all(isinstance(v, str) and v.strip() and '\n' not in v for v in row.values()), 'all fields must be nonempty single-line strings')
+            optional = {'preview'} if group == 'repos' else set()
+            require(isinstance(row, dict) and fields <= row.keys() <= fields | optional, f'{group}: invalid fields')
+            require(all(single_line_text(row[field]) for field in fields), 'all required fields must be nonempty single-line strings')
             repo = row['repo']
             require(re.fullmatch(r'[A-Za-z0-9-]+/[A-Za-z0-9_.-]+', repo) is not None, f'invalid repo: {repo}')
             require(repo.lower() not in seen, f'duplicate repo: {repo}')
@@ -37,6 +51,11 @@ def validate(data):
                 require(row['tier'] in TIERS and row['status'] in STATUSES, f'invalid tier/status: {repo}')
                 require(row['verdict'] != '收藏待试', f'missing reason: {repo}')
                 require(row['what'] != row['verdict'], f'duplicate description/reason: {repo}')
+                if 'preview' in row:
+                    preview = row['preview']
+                    require(isinstance(preview, dict) and set(preview) == {'image', 'url', 'alt', 'caption'}, f'invalid preview fields: {repo}')
+                    require(all(single_line_text(value) for value in preview.values()), f'invalid preview text: {repo}')
+                    require(all(public_https_url(preview[field]) for field in ('image', 'url')), f'invalid preview URL: {repo}')
             else:
                 require(repo.startswith('bmdy6/'), 'own projects must belong to bmdy6')
 
@@ -66,6 +85,25 @@ def starter_cards(repos):
     return lines + ['</table>', '']
 
 
+def project_previews(rows):
+    lines = []
+    for row in rows:
+        preview = row.get('preview')
+        if preview is None:
+            continue
+        image = escape(preview['image'])
+        url = escape(preview['url'])
+        alt = escape(preview['alt'])
+        caption = cell(preview['caption'])
+        name = escape(row['repo'])
+        lines += [
+            f'<p><a href="{url}"><img src="{image}" width="720" alt="{alt}"></a><br>',
+            f'<strong><a href="{url}">{name}</a></strong> · {caption}</p>',
+            '',
+        ]
+    return lines
+
+
 def render(data):
     validate(data)
     repos, own = data['repos'], data['own_projects']
@@ -82,6 +120,7 @@ def render(data):
               f"外部项目 **{len(repos)}** 个：精选 {tiers['精选']}、值得看 {tiers['值得看']}、看过没选 {tiers['看过没选']}；自有公开项目 **{len(own)}** 个。", f"整理日期：{data['updated_at']}。", '']
     for i, category in enumerate(categories, 1):
         lines += [f'<a id="category-{i}"></a>', '', f'## {category}', '']
+        lines += project_previews(r for r in repos if r['category'] == category)
         for tier in ('精选', '看过没选', '值得看'):
             rows = [r for r in repos if r['category'] == category and r['tier'] == tier]
             if not rows:
@@ -96,6 +135,7 @@ def render(data):
     lines += ['', '<a id="maintenance"></a>', '', '## 维护方式', '',
               '唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。', '',
               '新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。', '',
+              '能用截图讲清用途的项目可加 `preview`。填写公开截图地址 `image`、官方演示链接 `url`、替代文字 `alt` 和图注 `caption`。', '',
               '```bash', 'python3 -m pip install PyYAML==6.0.3', 'python3 scripts/build_readme.py', 'python3 scripts/build_readme.py --check', '```', '',
               'CI 校验 YAML 字段与 README 是否同步。公开数据不保存私人路径、浏览记录、会话原文或来源证据字段。', '',
               '本清单采用 [CC0-1.0](LICENSE)；所链接项目按各自条款使用。']
