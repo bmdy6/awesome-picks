@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **250** 个：精选 69、值得看 154、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-13。
+外部项目 **251** 个：精选 70、值得看 154、看过没选 27；自有公开项目 **7** 个。
+整理日期：2026-11-14。
 
 <a id="category-1"></a>
 
@@ -478,7 +478,10 @@
 
 ## 游戏与趣味
 
-### 精选（5）
+<p><a href="https://github.com/mewamew/my_ai_town"><img src="https://raw.githubusercontent.com/mewamew/my_ai_town/b6e513d544f063b56296ba0ee849dbcf626e9c1e/assets/readme/town-overview.jpg" width="720" alt="我的 AI 小镇 HD-2D 小镇全景"></a><br>
+<strong><a href="https://github.com/mewamew/my_ai_town">mewamew/my_ai_town</a></strong> · 官方截图展示像素风小镇的地图与建筑。</p>
+
+### 精选（6）
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -486,6 +489,7 @@
 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 通过多 Agent 模拟探索群体行为的工具 | 从种子材料构建多 Agent 模拟世界，供群体行为实验。 | 收藏 |
 | [HELPMEEADICE/BANDORI-PET-REV](https://github.com/HELPMEEADICE/BANDORI-PET-REV) | 基于 Live2D 的角色桌面宠物 | 用 Live2D 与 PySide6 组合角色、服装和桌面互动。 | 收藏 |
 | [IllegalCreed/type-pal](https://github.com/IllegalCreed/type-pal) | 使用 TypeScript 重写经典仙侠游戏的项目 | 用 TypeScript 重写可在浏览器游玩的经典仙侠游戏。 | 收藏 |
+| [mewamew/my_ai_town](https://github.com/mewamew/my_ai_town) | AI 居民会自主生活、交谈和记住经历的像素风模拟游戏 | 已在 Mac 上试玩。喜欢居民自主行动与剧本玩法结合，想保留继续玩。 | 试过 |
 | [shinyflvre/Mate-Engine](https://github.com/shinyflvre/Mate-Engine) | 支持 VRM 角色与交互动作的桌面宠物引擎 | 旧记录实测鼠标穿透与交互有效，当时只有 Windows 支持。 | 试过 |
 
 <details><summary>值得看（10）</summary>
