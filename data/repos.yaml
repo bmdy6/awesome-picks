@@ -1534,6 +1534,12 @@ repos:
   what: 拆解知名品牌设计系统的 DESIGN.md 合集
   verdict: 把一份 DESIGN.md 放进项目，让编程 Agent 按同一套风格生成界面；我还没看过。
   status: 收藏
+- repo: cathrynlavery/diagram-design
+  category: 设计与前端
+  tier: 值得看
+  what: 给编程助手用的编辑向图表技能，可按站点配色出独立 HTML+SVG
+  verdict: 宣称支持约 45 到 50 种图表，并能导入 Mermaid 和 draw.io；我还没看过。
+  status: 收藏
 own_projects:
 - repo: bmdy6/bmdy6
   what: 个人 GitHub 主页说明

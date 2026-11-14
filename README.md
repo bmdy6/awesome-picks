@@ -43,7 +43,7 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **254** 个：精选 70、值得看 157、看过没选 27；自有公开项目 **7** 个。
+外部项目 **255** 个：精选 70、值得看 158、看过没选 27；自有公开项目 **7** 个。
 整理日期：2026-11-14。
 
 <a id="category-1"></a>
@@ -359,10 +359,11 @@
 | [jihe520/Agentic-Desktop-Pet](https://github.com/jihe520/Agentic-Desktop-Pet) | 基于 Godot 的 Agent 桌面宠物项目 | 旧试用中透明区域仍拦截点击，未满足鼠标穿透要求。 | 试过 |
 | [nodegui/nodegui](https://github.com/nodegui/nodegui) | 基于 Qt 构建桌面应用的 JavaScript 框架 | 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。 | 收藏 |
 
-<details><summary>值得看（5）</summary>
+<details><summary>值得看（6）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 给编程助手用的编辑向图表技能，可按站点配色出独立 HTML+SVG | 宣称支持约 45 到 50 种图表，并能导入 Mermaid 和 draw.io；我还没看过。 | 收藏 |
 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 为界面动效与交互细节提供设计和审查建议的技能 | 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。 | 收藏 |
 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 拆解知名品牌设计系统的 DESIGN.md 合集 | 把一份 DESIGN.md 放进项目，让编程 Agent 按同一套风格生成界面；我还没看过。 | 收藏 |
 | [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | 帮助设计和审查具有原生体验的跨平台桌面应用的技能 | 改 Mac 应用的菜单栏、快捷键和窗口交互时，可以借用它的检查清单。 | 收藏 |
