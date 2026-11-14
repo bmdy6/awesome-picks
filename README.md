@@ -43,7 +43,7 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **251** 个：精选 70、值得看 154、看过没选 27；自有公开项目 **7** 个。
+外部项目 **254** 个：精选 70、值得看 157、看过没选 27；自有公开项目 **7** 个。
 整理日期：2026-11-14。
 
 <a id="category-1"></a>
@@ -131,7 +131,7 @@
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 提供界面审查与设计改进指令的技能库 | 用 polish、critique、audit 等指令细化界面设计与审查。 | 收藏 |
 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 生成机器与复杂系统交互示意图的技能 | 把抽象概念变成可操作的交互图形和工作对象。 | 收藏 |
 
-<details><summary>值得看（18）</summary>
+<details><summary>值得看（19）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -150,6 +150,7 @@
 | [irenerachel/xiaohongshu-layout-factory-skill](https://github.com/irenerachel/xiaohongshu-layout-factory-skill) | 将 IP 素材组织成小红书图集模板的技能 | 从 IP 素材生成专属排版技能、HTML 模板和逐页质检流程。 | 收藏 |
 | [marcusnelson/write-like-me-claude-skill](https://github.com/marcusnelson/write-like-me-claude-skill) | 让 Agent 从写作样本学习个人文风的技能 | 从作者样本学习文风，形成可复用的写作技能。 | 收藏 |
 | [Moosphan/readme-generator-skill](https://github.com/Moosphan/readme-generator-skill) | 根据项目内容生成 README 的技能 | 为 Codex 和 Claude Code 提供 README 编写流程。 | 收藏 |
+| [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Obsidian 官方为编程助手提供的 Markdown、Bases、Canvas 与 CLI 技能 | 让 Agent 直接写出双链、callout、属性等原生格式，减少知识库格式返工；我还没看过。 | 收藏 |
 | [Shawnchee/design-scan](https://github.com/Shawnchee/design-scan) | 抓取网页布局、字体和颜色并生成设计文档的技能 | 结合网页抓取、截图和交互观察生成 design.md。 | 收藏 |
 | [shengjidaguai-china/personal-homepage-skill](https://github.com/shengjidaguai-china/personal-homepage-skill) | 生成个人主页和 HTML 演示文稿的技能 | 把个人主页、作品集与 HTML 演示模板配成 Agent 技能。 | 收藏 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 收集 AI 产品系统提示词与工具定义的资料库 | 汇集 AI 工具的提示词和相关资料，供对照阅读。 | 收藏 |
@@ -180,7 +181,7 @@
 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 用于跨编程 Agent 检索和交接的记忆服务 | 本机 PoC 可检索和交接，但与已有工具重叠，2026-08 决定暂不接入。 | 试过 |
 | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | 使用知识图谱检索和理解代码的工具 | 旧调研认为小型代码库引入重型图检索会增加过多工程复杂度。 | 收藏 |
 
-<details><summary>值得看（20）</summary>
+<details><summary>值得看（21）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -192,6 +193,7 @@
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 结合图结构和检索生成的知识库框架 | 结合知识图谱与检索增强，提供文档处理和检索入口。 | 收藏 |
 | [jerryfane/omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) | 面向编程 Agent 的原文上下文裁剪扩展 | 按工具调用及结果打分裁剪，不改写原文。 | 收藏 |
 | [joelhooks/pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) | 在 Pi 中按判断结果裁剪原文上下文的扩展 | 先裁剪上下文，空间仍不足时再交回 Pi 原有压缩机制。 | 收藏 |
+| [kepano/kepano-obsidian](https://github.com/kepano/kepano-obsidian) | Obsidian CEO 公开的个人知识库模板 | 以扁平目录加分类页和属性组织笔记，可借鉴给知识地图；我还没看过。 | 收藏 |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 组合知识库问答与可视化 AI 工作流的平台 | 将数据处理、模型调用与可视化 Flow 编排放在一起。 | 收藏 |
 | [langgenius/dify](https://github.com/langgenius/dify) | 搭建 Agent、知识库和工作流的应用平台 | 提供可自托管的 AI 应用构建与工作流平台。 | 收藏 |
 | [microsoft/graphrag](https://github.com/microsoft/graphrag) | 以图结构组织文本检索与摘要的框架 | 用图结构组织上下文，探索面向问答的检索方式。 | 收藏 |
@@ -357,11 +359,12 @@
 | [jihe520/Agentic-Desktop-Pet](https://github.com/jihe520/Agentic-Desktop-Pet) | 基于 Godot 的 Agent 桌面宠物项目 | 旧试用中透明区域仍拦截点击，未满足鼠标穿透要求。 | 试过 |
 | [nodegui/nodegui](https://github.com/nodegui/nodegui) | 基于 Qt 构建桌面应用的 JavaScript 框架 | 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。 | 收藏 |
 
-<details><summary>值得看（4）</summary>
+<details><summary>值得看（5）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 为界面动效与交互细节提供设计和审查建议的技能 | 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。 | 收藏 |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 拆解知名品牌设计系统的 DESIGN.md 合集 | 把一份 DESIGN.md 放进项目，让编程 Agent 按同一套风格生成界面；我还没看过。 | 收藏 |
 | [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | 帮助设计和审查具有原生体验的跨平台桌面应用的技能 | 改 Mac 应用的菜单栏、快捷键和窗口交互时，可以借用它的检查清单。 | 收藏 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | 提供 Fluent 风格界面组件的 Qt 组件库 | 旧调研认为可加快 Qt 界面开发，未确认本人已采用。 | 收藏 |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 支持 Agent 协作的矢量与界面设计工具 | 旧调研保留为设计参考，尚未完成目标工作流的接入验证。 | 收藏 |

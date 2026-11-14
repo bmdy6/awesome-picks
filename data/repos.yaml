@@ -1516,6 +1516,24 @@ repos:
   what: 记录健身训练并提供 API 与 MCP 的应用
   verdict: 整套合入会重复前端和训练数据，先独立体验，再考虑 API/MCP。
   status: 收藏
+- repo: obsidianmd/obsidian-skills
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: Obsidian 官方为编程助手提供的 Markdown、Bases、Canvas 与 CLI 技能
+  verdict: 让 Agent 直接写出双链、callout、属性等原生格式，减少知识库格式返工；我还没看过。
+  status: 收藏
+- repo: kepano/kepano-obsidian
+  category: 记忆与知识库
+  tier: 值得看
+  what: Obsidian CEO 公开的个人知识库模板
+  verdict: 以扁平目录加分类页和属性组织笔记，可借鉴给知识地图；我还没看过。
+  status: 收藏
+- repo: VoltAgent/awesome-design-md
+  category: 设计与前端
+  tier: 值得看
+  what: 拆解知名品牌设计系统的 DESIGN.md 合集
+  verdict: 把一份 DESIGN.md 放进项目，让编程 Agent 按同一套风格生成界面；我还没看过。
+  status: 收藏
 own_projects:
 - repo: bmdy6/bmdy6
   what: 个人 GitHub 主页说明
