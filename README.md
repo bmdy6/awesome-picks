@@ -43,7 +43,7 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **256** 个：精选 70、值得看 159、看过没选 27；自有公开项目 **7** 个。
+外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
 整理日期：2026-11-15。
 
 <a id="category-1"></a>
@@ -323,12 +323,16 @@
 | --- | --- | --- | --- |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 获取网页正文并转成结构化内容的服务 | 2026-08 暂缓：已有搜索 API，尚无批量网页正文采集刚需。 | 收藏 |
 
-<details><summary>值得看（11）</summary>
+<details><summary>值得看（16）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [beilunyang/openhongguo](https://github.com/beilunyang/openhongguo) | 获取短剧内容信息并附命令行播放工具的非官方 SDK | 已认真研究 SDK 的播放状态与调用责任，连续播放效果仍待验收。 | 收藏 |
+| [BetaStreetOmnis/xhs_ai_publisher](https://github.com/BetaStreetOmnis/xhs_ai_publisher) | 用 AI 生成小红书图文并发布的工具，提供桌面界面和 API | 可生成图文并自动发布到小红书，走的是非官方接口；我还没看过。 | 收藏 |
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 使用模型理解页面并执行浏览器操作的库 | 让 Agent 用浏览器完成跨页面、多步骤任务。 | 收藏 |
+| [Christ9038/Ydisks-Xianyu-Helper](https://github.com/Christ9038/Ydisks-Xianyu-Helper) | 闲鱼多账号自动发货与消息回复工具 | 用于多账号自动发货和自动回复，走的是非官方接口；我还没看过。 | 收藏 |
+| [Evvvvvvvan/XianYuSmart](https://github.com/Evvvvvvvan/XianYuSmart) | 覆盖闲鱼发布、AI 客服和自动发货的全流程系统，可自行用 Docker 部署 | 宣称支持多账号和自动发货，走的是非官方接口，许可证为 PolyForm Noncommercial（不可商用）；我还没看过。 | 收藏 |
+| [fancyboi999/goofish-cli](https://github.com/fancyboi999/goofish-cli) | 面向 AI Agent 的闲鱼命令行工具，并提供 MCP 接口 | 可用命令行或 MCP 调用闲鱼能力，走的是非官方接口；我还没看过。 | 收藏 |
 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 在电脑显示和控制 Android 设备的工具 | 文档与设备列表已核对，真机控制及 Agent 操作链路尚未完成。 | 收藏 |
 | [getmaxun/maxun](https://github.com/getmaxun/maxun) | 通过浏览器录制与自动化提取网页数据的平台 | 将网页采集、监控与结构化 API 输出组合起来。 | 收藏 |
 | [github/github-mcp-server](https://github.com/github/github-mcp-server) | 访问 GitHub 仓库、Issue 和 PR 的官方 MCP 服务 | 以官方 MCP 接口连接 GitHub 仓库、代码及 Issue 管理。 | 收藏 |
@@ -338,6 +342,7 @@
 | [openai/tart](https://github.com/openai/tart) | 在 Apple Silicon 上管理虚拟机的工具 | 考虑用于隔离桌面验收，当前仅做方案与脚本准备。 | 收藏 |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 通过视觉理解执行网页任务的自动化框架 | 结合大模型与视觉处理浏览器工作流。 | 收藏 |
 | [trycua/cua](https://github.com/trycua/cua) | 为 Agent 提供隔离电脑与操作能力的工具集 | 考虑用独立桌面做原生应用验收，尚未搭建并跑通目标虚拟机。 | 收藏 |
+| [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 面向小红书、抖音、知乎、B 站等平台的社媒 Agent，可发现热点、创作、发布并回流数据 | 把找热点、写内容、多平台发布和数据回流串成一套，走的是非官方接口；我还没看过。 | 收藏 |
 
 </details>
 
