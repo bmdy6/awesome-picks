@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **255** 个：精选 70、值得看 158、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-14。
+外部项目 **256** 个：精选 70、值得看 159、看过没选 27；自有公开项目 **7** 个。
+整理日期：2026-11-15。
 
 <a id="category-1"></a>
 
@@ -443,12 +443,13 @@
 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 面向本地模型推理的工具项目 | 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。 | 收藏 |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 在本地运行和微调模型的工具 | 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。 | 收藏 |
 
-<details><summary>值得看（8）</summary>
+<details><summary>值得看（9）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [2002XiaoYu/Latest-front-end-Notes](https://github.com/2002XiaoYu/Latest-front-end-Notes) | 前后端开发笔记与学习资料合集 | 集中整理前后端笔记、源码分析与案例资料。 | 收藏 |
 | [AlvinMacaraeg/ccna-ai-tutor](https://github.com/AlvinMacaraeg/ccna-ai-tutor) | 围绕网络认证知识制作的 AI 学习项目 | 在终端中结合 AI 讲解和练习组织 CCNA 备考。 | 收藏 |
+| [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | 从硬件约束量化推导 LLM 推理与训练系统设计的开源书稿 | 《深入理解 AI Agent》的姊妹篇，用五个数据搬移问题贯穿十二章，配套工具只需 Python 标准库；我还没看过。 | 收藏 |
 | [happycola233/tchMaterial-parser](https://github.com/happycola233/tchMaterial-parser) | 获取公开教材 PDF 地址与下载文件的工具 | 批量解析教材预览地址，支持跳过已下载文件和任务管理。 | 收藏 |
 | [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | 通过配置组织模型后训练流程的命令行工具 | 用同一份配置和命令组织模型微调与后训练。 | 收藏 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | MDN Web 文档的翻译内容仓库 | 提供 MDN Web 文档的多语言翻译与贡献规范。 | 收藏 |

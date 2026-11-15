@@ -1,4 +1,4 @@
-updated_at: '2026-11-14'
+updated_at: '2026-11-15'
 repos:
 - repo: bagidea/bagidea-office
   category: AI Agent 与框架
@@ -1228,6 +1228,12 @@ repos:
   tier: 精选
   what: 讲解 Agent 原理与工程实践的开源书籍
   verdict: 知识库已把它列为按问题查原理、对照源码做最小实验的学习入口。
+  status: 收藏
+- repo: bojieli/ai-infra-book
+  category: 学习资源
+  tier: 值得看
+  what: 从硬件约束量化推导 LLM 推理与训练系统设计的开源书稿
+  verdict: 《深入理解 AI Agent》的姊妹篇，用五个数据搬移问题贯穿十二章，配套工具只需 Python 标准库；我还没看过。
   status: 收藏
 - repo: HKUDS/DeepTutor
   category: 学习资源
