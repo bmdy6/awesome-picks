@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-15。
+外部项目 **272** 个：精选 70、值得看 175、看过没选 27；自有公开项目 **7** 个。
+整理日期：2026-11-16。
 
 <a id="category-1"></a>
 
@@ -131,7 +131,7 @@
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 提供界面审查与设计改进指令的技能库 | 用 polish、critique、audit 等指令细化界面设计与审查。 | 收藏 |
 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 生成机器与复杂系统交互示意图的技能 | 把抽象概念变成可操作的交互图形和工作对象。 | 收藏 |
 
-<details><summary>值得看（19）</summary>
+<details><summary>值得看（20）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -148,6 +148,7 @@
 | [GodsBoy/jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) | 为 Agent 技能进行分类、排序与置信度判断的路由器 | 比较语义技能路由和词面基线，提供可回查的合成请求评测。 | 收藏 |
 | [Hiro-Inagawa/write-like-me](https://github.com/Hiro-Inagawa/write-like-me) | 从写作样本构建文风档案并用规则检查的工具 | 提供无需安装依赖即可运行的 Markdown 文风检查器。 | 收藏 |
 | [irenerachel/xiaohongshu-layout-factory-skill](https://github.com/irenerachel/xiaohongshu-layout-factory-skill) | 将 IP 素材组织成小红书图集模板的技能 | 从 IP 素材生成专属排版技能、HTML 模板和逐页质检流程。 | 收藏 |
+| [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | Jane Street 开源的 Agent 技能合集，目前主要是苏格拉底式导师：先摸底，再按 0-5 级技能图一次只问一个问题，答错不直接给答案 | 可先把 socratic-tutor/SKILL.md 拷进 Claude Code 或贴进对话，用来学自己正在用的工具；仓库是 MIT，目前只有这一个技能；我还没看过。 | 收藏 |
 | [marcusnelson/write-like-me-claude-skill](https://github.com/marcusnelson/write-like-me-claude-skill) | 让 Agent 从写作样本学习个人文风的技能 | 从作者样本学习文风，形成可复用的写作技能。 | 收藏 |
 | [Moosphan/readme-generator-skill](https://github.com/Moosphan/readme-generator-skill) | 根据项目内容生成 README 的技能 | 为 Codex 和 Claude Code 提供 README 编写流程。 | 收藏 |
 | [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Obsidian 官方为编程助手提供的 Markdown、Bases、Canvas 与 CLI 技能 | 让 Agent 直接写出双链、callout、属性等原生格式，减少知识库格式返工；我还没看过。 | 收藏 |
@@ -181,26 +182,32 @@
 | [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | 用于跨编程 Agent 检索和交接的记忆服务 | 本机 PoC 可检索和交接，但与已有工具重叠，2026-08 决定暂不接入。 | 试过 |
 | [vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag) | 使用知识图谱检索和理解代码的工具 | 旧调研认为小型代码库引入重型图检索会增加过多工程复杂度。 | 收藏 |
 
-<details><summary>值得看（21）</summary>
+<details><summary>值得看（27）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | 搭建知识库与企业 Agent 的应用平台 | 整合 RAG、模型与工作流，提供可视化 Agent 构建入口。 | 收藏 |
+| [AgriciDaniel/compass](https://github.com/AgriciDaniel/compass) | 在 Obsidian 里管理目标、任务、人际、复盘和知识图谱的 Life OS 模板 | 大而全的人生操作系统，汉化版见 sunkeke-ai/Life-Compass-Obsidian-CN；我还没看过。 | 收藏 |
 | [compozy/yoshi](https://github.com/compozy/yoshi) | 为编程 Agent 裁剪历史上下文的代理 | 在本地代理中对新增上下文做判断和裁剪。 | 收藏 |
 | [FalkorDB/FalkorDB](https://github.com/FalkorDB/FalkorDB) | 适用于知识图谱与图检索的图数据库 | 用图数据库支撑关系查询和 Agent 记忆等场景。 | 收藏 |
 | [getzep/graphiti](https://github.com/getzep/graphiti) | 为 Agent 构建可持续更新知识图谱的工具 | 以时间知识图谱保存事实及其变化。 | 收藏 |
 | [gusye1234/nano-graphrag](https://github.com/gusye1234/nano-graphrag) | 便于阅读和修改的简化 GraphRAG 实现 | 用较小实现保留 GraphRAG 的核心检索流程。 | 收藏 |
 | [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 结合图结构和检索生成的知识库框架 | 结合知识图谱与检索增强，提供文档处理和检索入口。 | 收藏 |
+| [IvyChim/Obsidian-Template](https://github.com/IvyChim/Obsidian-Template) | 面向新手的开箱即用 Obsidian 仓库模板，含 PARA、日记和 Home 工作台 | 插件预置、打开即可用，适合先单独开一个练习库模仿，不要覆盖现有知识库；我还没看过。 | 收藏 |
 | [jerryfane/omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) | 面向编程 Agent 的原文上下文裁剪扩展 | 按工具调用及结果打分裁剪，不改写原文。 | 收藏 |
 | [joelhooks/pi-fast-jev-compaction](https://github.com/joelhooks/pi-fast-jev-compaction) | 在 Pi 中按判断结果裁剪原文上下文的扩展 | 先裁剪上下文，空间仍不足时再交回 Pi 原有压缩机制。 | 收藏 |
+| [kepano/40-questions](https://github.com/kepano/40-questions) | Obsidian CEO 给自己用的年终和十年复盘问题清单 | 可先挑几道题，对照日记和笔记来写；仓库有简体中文译本，GitHub 未标明许可证；我还没看过。 | 收藏 |
 | [kepano/kepano-obsidian](https://github.com/kepano/kepano-obsidian) | Obsidian CEO 公开的个人知识库模板 | 以扁平目录加分类页和属性组织笔记，可借鉴给知识地图；我还没看过。 | 收藏 |
+| [kepano/obsidian-minimal](https://github.com/kepano/obsidian-minimal) | 一套干净、可自定义的 Obsidian 外观 | 在外观市场搜 Minimal 即可安装，适合先在练习库里用；我还没看过。 | 收藏 |
 | [labring/FastGPT](https://github.com/labring/FastGPT) | 组合知识库问答与可视化 AI 工作流的平台 | 将数据处理、模型调用与可视化 Flow 编排放在一起。 | 收藏 |
 | [langgenius/dify](https://github.com/langgenius/dify) | 搭建 Agent、知识库和工作流的应用平台 | 提供可自托管的 AI 应用构建与工作流平台。 | 收藏 |
 | [microsoft/graphrag](https://github.com/microsoft/graphrag) | 以图结构组织文本检索与摘要的框架 | 用图结构组织上下文，探索面向问答的检索方式。 | 收藏 |
 | [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) | 管理本地知识库和模型对话的应用 | 将文档问答、Agent 和多用户配置组合成应用。 | 收藏 |
 | [nicobailon/pi-mcp-adapter](https://github.com/nicobailon/pi-mcp-adapter) | 让 Pi 按需发现和调用 MCP 工具的扩展 | 为 Pi 接入 MCP 工具，支持工具发现及长任务后台运行。 | 收藏 |
 | [outline/outline](https://github.com/outline/outline) | 支持协作编辑与搜索的团队知识库 | 已查原生 MCP 与中文搜索回退逻辑，真实页面及实际数据仍待验收。 | 收藏 |
+| [PandoraReads/apex-dashboard](https://github.com/PandoraReads/apex-dashboard) | 把待办、项目、日历、备忘和番茄钟放在同一页的 Obsidian 工作台插件 | 社区插件，安装后生成 dashboard.md；先在练习库试用，不要直接装进现有知识库；我还没看过。 | 收藏 |
 | [samdotmak/jev-recall](https://github.com/samdotmak/jev-recall) | 按相关性筛选 Agent 记忆的工具 | 对检索结果按相关性重排，供语义检索流程比较。 | 收藏 |
+| [sunkeke-ai/Life-Compass-Obsidian-CN](https://github.com/sunkeke-ai/Life-Compass-Obsidian-CN) | AgriciDaniel/compass 的非官方简体中文本地化 Life OS 模板 | 保留原项目结构，主界面和模板已中文化，README 写明不要覆盖已有仓库；我还没看过。 | 收藏 |
 | [superagents-lab/jev-search](https://github.com/superagents-lab/jev-search) | 结合结构化判断进行网络检索的工具 | 提供可安装为浏览器应用的搜索界面。 | 收藏 |
 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | 依据相关性保留原文并裁剪会话的插件 | 按工具调用和结果做决策式裁剪，替代一段式压缩摘要。 | 收藏 |
 | [TianyuCodings/JevHarness](https://github.com/TianyuCodings/JevHarness) | 结合结构化判断与反馈优化决策程序的实验框架 | 让模型生成任务专用 harness，并检查和迭代其决策。 | 收藏 |
@@ -281,7 +288,7 @@
 | [goauthentik/authentik](https://github.com/goauthentik/authentik) | 统一身份认证与单点登录平台 | 旧选型暂不引入企业 SSO，当时的学习产品没有这个刚需。 | 收藏 |
 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | 通过分层加载降低大模型推理内存需求的工具 | 旧调研未证明适合 24GB Mac 的日常高速推理，等待明确离线需求。 | 收藏 |
 
-<details><summary>值得看（14）</summary>
+<details><summary>值得看（15）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -296,6 +303,7 @@
 | [klarkxy/open-console-gateway](https://github.com/klarkxy/open-console-gateway) | 统一管理模型订阅与 API 接口的本地网关 | 统一管理订阅账号和 API，并连接到桌面应用。 | 收藏 |
 | [larksuite/cli](https://github.com/larksuite/cli) | 供人和 Agent 调用协作平台能力的官方 CLI | 将飞书能力开放为 CLI，并配套 Agent 技能和认证入口。 | 收藏 |
 | [larksuite/lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp) | 调用协作平台开放接口的官方 MCP 服务 | 提供飞书 OpenAPI 的 MCP 工具及开发文档检索入口。 | 收藏 |
+| [libracoder/kiri](https://github.com/libracoder/kiri) | 用 Rust 写的轻量容器运行时，定位是 Docker Desktop 和 OrbStack 的替代，兼容已有的 docker、Compose 和 buildx | 可在 Mac 上先当 Docker Desktop 的备选来试。仓库自己的数字是：经 Docker API 起停 alpine 约 2.55 ms（同一方法下 Docker Desktop 约 213 ms），守护进程约 15 MB；「900KB」在 README 里指虚拟机内的 guest agent，不是整个应用。项目 2026-11-02 才创建，帖里「大文件读写稍慢」和仓库描述里的 Ngrok 替代在本次看到的说明里没有展开；我还没看过。 | 收藏 |
 | [MAXeaglet/commandcode-proxy](https://github.com/MAXeaglet/commandcode-proxy) | 为编程客户端适配模型接口的代理 | 用单文件代理把 Command Code API 转成兼容接口。 | 收藏 |
 | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | 将回答构建成单页 HTML 的工具 | 将解释构建为单文件页面，支持离线阅读和可视化说明。 | 收藏 |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 向 Agent 提供终端、文件检索与编辑能力的 MCP 服务 | 让 Agent 管理文件、执行终端命令与控制进程。 | 收藏 |
@@ -364,13 +372,16 @@
 | [jihe520/Agentic-Desktop-Pet](https://github.com/jihe520/Agentic-Desktop-Pet) | 基于 Godot 的 Agent 桌面宠物项目 | 旧试用中透明区域仍拦截点击，未满足鼠标穿透要求。 | 试过 |
 | [nodegui/nodegui](https://github.com/nodegui/nodegui) | 基于 Qt 构建桌面应用的 JavaScript 框架 | 旧调研没找到合适的角色模型接口，相比已有 Qt 方案缺少优势。 | 收藏 |
 
-<details><summary>值得看（6）</summary>
+<details><summary>值得看（9）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
+| [adrianpunk/Punk-Posters](https://github.com/adrianpunk/Punk-Posters) | 用于生成文章封面和海报的 Skill | 可与封面配色 Skill 搭配，选完颜色后再出封面；当前 v2 起为个人非商用许可，商用需书面授权并付费，仓库未标成单一 SPDX；我还没看过。 | 收藏 |
 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 给编程助手用的编辑向图表技能，可按站点配色出独立 HTML+SVG | 宣称支持约 45 到 50 种图表，并能导入 Mermaid 和 draw.io；我还没看过。 | 收藏 |
 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 为界面动效与交互细节提供设计和审查建议的技能 | 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。 | 收藏 |
+| [kepano/flexoki](https://github.com/kepano/flexoki) | 为写文章和写代码设计的配色方案 | 可对照着调整 Obsidian、编辑器或站点配色；我还没看过。 | 收藏 |
 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 拆解知名品牌设计系统的 DESIGN.md 合集 | 把一份 DESIGN.md 放进项目，让编程 Agent 按同一套风格生成界面；我还没看过。 | 收藏 |
+| [WoYun520/gif-factory](https://github.com/WoYun520/gif-factory) | 包含文章封面配色在内的一组可安装 Skill | 把文章发给 AI 可选配色并说明标题、底色和点缀怎么分，本身不生成封面；我还没看过。 | 收藏 |
 | [yetone/native-feel-skill](https://github.com/yetone/native-feel-skill) | 帮助设计和审查具有原生体验的跨平台桌面应用的技能 | 改 Mac 应用的菜单栏、快捷键和窗口交互时，可以借用它的检查清单。 | 收藏 |
 | [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) | 提供 Fluent 风格界面组件的 Qt 组件库 | 旧调研认为可加快 Qt 界面开发，未确认本人已采用。 | 收藏 |
 | [ZSeven-W/openpencil](https://github.com/ZSeven-W/openpencil) | 支持 Agent 协作的矢量与界面设计工具 | 旧调研保留为设计参考，尚未完成目标工作流的接入验证。 | 收藏 |

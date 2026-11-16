@@ -1,4 +1,4 @@
-updated_at: '2026-11-15'
+updated_at: '2026-11-16'
 repos:
 - repo: bagidea/bagidea-office
   category: AI Agent 与框架
@@ -408,6 +408,12 @@ repos:
   what: 将 IP 素材组织成小红书图集模板的技能
   verdict: 从 IP 素材生成专属排版技能、HTML 模板和逐页质检流程。
   status: 收藏
+- repo: janestreet/agent_skills
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: Jane Street 开源的 Agent 技能合集，目前主要是苏格拉底式导师：先摸底，再按 0-5 级技能图一次只问一个问题，答错不直接给答案
+  verdict: 可先把 socratic-tutor/SKILL.md 拷进 Claude Code 或贴进对话，用来学自己正在用的工具；仓库是 MIT，目前只有这一个技能；我还没看过。
+  status: 收藏
 - repo: marcusnelson/write-like-me-claude-skill
   category: Agent 技能与提示词
   tier: 值得看
@@ -492,6 +498,12 @@ repos:
   what: 搭建知识库与企业 Agent 的应用平台
   verdict: 整合 RAG、模型与工作流，提供可视化 Agent 构建入口。
   status: 收藏
+- repo: AgriciDaniel/compass
+  category: 记忆与知识库
+  tier: 值得看
+  what: 在 Obsidian 里管理目标、任务、人际、复盘和知识图谱的 Life OS 模板
+  verdict: 大而全的人生操作系统，汉化版见 sunkeke-ai/Life-Compass-Obsidian-CN；我还没看过。
+  status: 收藏
 - repo: compozy/yoshi
   category: 记忆与知识库
   tier: 值得看
@@ -522,6 +534,12 @@ repos:
   what: 结合图结构和检索生成的知识库框架
   verdict: 结合知识图谱与检索增强，提供文档处理和检索入口。
   status: 收藏
+- repo: IvyChim/Obsidian-Template
+  category: 记忆与知识库
+  tier: 值得看
+  what: 面向新手的开箱即用 Obsidian 仓库模板，含 PARA、日记和 Home 工作台
+  verdict: 插件预置、打开即可用，适合先单独开一个练习库模仿，不要覆盖现有知识库；我还没看过。
+  status: 收藏
 - repo: jerryfane/omp-jev-compaction
   category: 记忆与知识库
   tier: 值得看
@@ -533,6 +551,18 @@ repos:
   tier: 值得看
   what: 在 Pi 中按判断结果裁剪原文上下文的扩展
   verdict: 先裁剪上下文，空间仍不足时再交回 Pi 原有压缩机制。
+  status: 收藏
+- repo: kepano/40-questions
+  category: 记忆与知识库
+  tier: 值得看
+  what: Obsidian CEO 给自己用的年终和十年复盘问题清单
+  verdict: 可先挑几道题，对照日记和笔记来写；仓库有简体中文译本，GitHub 未标明许可证；我还没看过。
+  status: 收藏
+- repo: kepano/obsidian-minimal
+  category: 记忆与知识库
+  tier: 值得看
+  what: 一套干净、可自定义的 Obsidian 外观
+  verdict: 在外观市场搜 Minimal 即可安装，适合先在练习库里用；我还没看过。
   status: 收藏
 - repo: labring/FastGPT
   category: 记忆与知识库
@@ -570,11 +600,23 @@ repos:
   what: 支持协作编辑与搜索的团队知识库
   verdict: 已查原生 MCP 与中文搜索回退逻辑，真实页面及实际数据仍待验收。
   status: 收藏
+- repo: PandoraReads/apex-dashboard
+  category: 记忆与知识库
+  tier: 值得看
+  what: 把待办、项目、日历、备忘和番茄钟放在同一页的 Obsidian 工作台插件
+  verdict: 社区插件，安装后生成 dashboard.md；先在练习库试用，不要直接装进现有知识库；我还没看过。
+  status: 收藏
 - repo: samdotmak/jev-recall
   category: 记忆与知识库
   tier: 值得看
   what: 按相关性筛选 Agent 记忆的工具
   verdict: 对检索结果按相关性重排，供语义检索流程比较。
+  status: 收藏
+- repo: sunkeke-ai/Life-Compass-Obsidian-CN
+  category: 记忆与知识库
+  tier: 值得看
+  what: AgriciDaniel/compass 的非官方简体中文本地化 Life OS 模板
+  verdict: 保留原项目结构，主界面和模板已中文化，README 写明不要覆盖已有仓库；我还没看过。
   status: 收藏
 - repo: superagents-lab/jev-search
   category: 记忆与知识库
@@ -894,6 +936,12 @@ repos:
   what: 调用协作平台开放接口的官方 MCP 服务
   verdict: 提供飞书 OpenAPI 的 MCP 工具及开发文档检索入口。
   status: 收藏
+- repo: libracoder/kiri
+  category: 编程工具与 CLI
+  tier: 值得看
+  what: 用 Rust 写的轻量容器运行时，定位是 Docker Desktop 和 OrbStack 的替代，兼容已有的 docker、Compose 和 buildx
+  verdict: 可在 Mac 上先当 Docker Desktop 的备选来试。仓库自己的数字是：经 Docker API 起停 alpine 约 2.55 ms（同一方法下 Docker Desktop 约 213 ms），守护进程约 15 MB；「900KB」在 README 里指虚拟机内的 guest agent，不是整个应用。项目 2026-11-02 才创建，帖里「大文件读写稍慢」和仓库描述里的 Ngrok 替代在本次看到的说明里没有展开；我还没看过。
+  status: 收藏
 - repo: MAXeaglet/commandcode-proxy
   category: 编程工具与 CLI
   tier: 值得看
@@ -1074,11 +1122,29 @@ repos:
   what: 分析现有软件并辅助重建交互的工具
   verdict: 观察网站、应用和游戏的行为，再辅助制作自己的版本。
   status: 收藏
+- repo: adrianpunk/Punk-Posters
+  category: 设计与前端
+  tier: 值得看
+  what: 用于生成文章封面和海报的 Skill
+  verdict: 可与封面配色 Skill 搭配，选完颜色后再出封面；当前 v2 起为个人非商用许可，商用需书面授权并付费，仓库未标成单一 SPDX；我还没看过。
+  status: 收藏
 - repo: emilkowalski/skills
   category: 设计与前端
   tier: 值得看
   what: 为界面动效与交互细节提供设计和审查建议的技能
   verdict: 做工作台的弹窗、页面切换或点击反馈时，可以按案例检查时长、缓动曲线和交互反馈。
+  status: 收藏
+- repo: kepano/flexoki
+  category: 设计与前端
+  tier: 值得看
+  what: 为写文章和写代码设计的配色方案
+  verdict: 可对照着调整 Obsidian、编辑器或站点配色；我还没看过。
+  status: 收藏
+- repo: WoYun520/gif-factory
+  category: 设计与前端
+  tier: 值得看
+  what: 包含文章封面配色在内的一组可安装 Skill
+  verdict: 把文章发给 AI 可选配色并说明标题、底色和点缀怎么分，本身不生成封面；我还没看过。
   status: 收藏
 - repo: yetone/native-feel-skill
   category: 设计与前端
