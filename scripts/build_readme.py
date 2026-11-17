@@ -39,7 +39,7 @@ def validate(data):
     for group, fields in [('repos', {'repo', 'category', 'tier', 'what', 'verdict', 'status'}), ('own_projects', {'repo', 'what'})]:
         require(isinstance(data[group], list) and data[group], f'{group} must be a nonempty list')
         for row in data[group]:
-            optional = {'preview'} if group == 'repos' else set()
+            optional = {'preview'} if group == 'repos' else {'category'}
             require(isinstance(row, dict) and fields <= row.keys() <= fields | optional, f'{group}: invalid fields')
             require(all(single_line_text(row[field]) for field in fields), 'all required fields must be nonempty single-line strings')
             repo = row['repo']
@@ -58,6 +58,8 @@ def validate(data):
                     require(all(public_https_url(preview[field]) for field in ('image', 'url')), f'invalid preview URL: {repo}')
             else:
                 require(repo.startswith('bmdy6/'), 'own projects must belong to bmdy6')
+                if 'category' in row:
+                    require(single_line_text(row['category']), f'invalid category: {repo}')
 
 
 def cell(text):
@@ -139,8 +141,17 @@ def render(data):
               '```bash', 'python3 -m pip install PyYAML==6.0.3', 'python3 scripts/build_readme.py', 'python3 scripts/build_readme.py --check', '```', '',
               'CI 校验 YAML 字段与 README 是否同步。公开数据不保存私人路径、浏览记录、会话原文或来源证据字段。', '',
               '本清单采用 [CC0-1.0](LICENSE)；所链接项目按各自条款使用。']
-    lines += ['<a id="own-projects"></a>', '', '## 我自己的项目', '', '这里只列公开仓库，不推断使用频率。', '', '| 项目 | 是什么 |', '| --- | --- |']
-    lines += [f"| [{r['repo']}](https://github.com/{r['repo']}) | {cell(r['what'])} |" for r in own]
+    lines += ['<a id="own-projects"></a>', '', '## 我自己的项目', '', '这里只列公开仓库，不推断使用频率。']
+    own_categories = {None: []}
+    for row in own:
+        own_categories.setdefault(row.get('category'), []).append(row)
+    for category, projects in own_categories.items():
+        if not projects:
+            continue
+        if category is not None:
+            lines += ['', f'### {cell(category)}']
+        lines += ['', '| 项目 | 是什么 |', '| --- | --- |']
+        lines += [f"| [{r['repo']}](https://github.com/{r['repo']}) | {cell(r['what'])} |" for r in projects]
     return '\n'.join(lines) + '\n'
 
 
