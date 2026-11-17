@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-15。
+外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **8** 个。
+整理日期：2026-11-17。
 
 <a id="category-1"></a>
 
@@ -585,3 +585,9 @@ CI 校验 YAML 字段与 README 是否同步。公开数据不保存私人路径
 | [bmdy6/skill-readme-from-code](https://github.com/bmdy6/skill-readme-from-code) | 按源码和实际命令编写 README 的 Agent 技能 |
 | [bmdy6/skill-style-polish](https://github.com/bmdy6/skill-style-polish) | 从会话提取文风并保持原意润色的技能 |
 | [bmdy6/stylepolish](https://github.com/bmdy6/stylepolish) | 在 Mac 输入框停笔后提供润色的菜单栏应用 |
+
+### 求职
+
+| 项目 | 是什么 |
+| --- | --- |
+| [bmdy6/skill-resume-platform-sync](https://github.com/bmdy6/skill-resume-platform-sync) | 用一份定稿更新四个招聘平台的简历附件和在线资料，逐项回读保存结果 |
