@@ -1,4 +1,4 @@
-updated_at: '2026-11-15'
+updated_at: '2026-11-19'
 repos:
 - repo: bagidea/bagidea-office
   category: AI Agent 与框架
@@ -1575,6 +1575,60 @@ repos:
   tier: 值得看
   what: 给编程助手用的编辑向图表技能，可按站点配色出独立 HTML+SVG
   verdict: 宣称支持约 45 到 50 种图表，并能导入 Mermaid 和 draw.io；我还没看过。
+  status: 收藏
+- repo: coreyhaines31/marketingskills
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 给编程 Agent 用的营销技能集，覆盖文案、SEO、转化和增长
+  verdict: 以 MIT 发布，并按文案、SEO、转化、分析和增长等任务拆成可组合技能；我还没看过。
+  status: 收藏
+- repo: op7418/guizang-ppt-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 生成单文件 HTML 横向翻页幻灯片的 Agent 技能
+  verdict: 面向 Claude Code 和 Codex 等环境，许可证为 AGPL-3.0；我还没看过。
+  status: 收藏
+- repo: op7418/Humanizer-zh
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 减少中文模板化表达和 AI 文风痕迹的 Agent 技能
+  verdict: README 写明保留事实与作者声音，不能证明作者身份，也不保证通过 AI 检测；用途不同于从会话提取文风再润色的 bmdy6/skill-style-polish，仓库为 MIT；我还没看过。
+  status: 收藏
+- repo: op7418/guizang-social-card-skill
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 生成小红书图文组图和公众号封面的 Agent 技能
+  verdict: 官方说明用于信息流图文和公众号横版、方形封面对，许可证为 AGPL-3.0；我还没看过。
+  status: 收藏
+- repo: joeseesun/qiaomu-anything-to-notebooklm
+  category: Agent 技能与提示词
+  tier: 值得看
+  what: 把网页、PDF 等内容交给 NotebookLM 生成资料的 Agent 技能
+  verdict: 官方说明可生成播客、幻灯片、思维导图或测验，许可证为 MIT，不能替代本地知识库；我还没看过。
+  status: 收藏
+- repo: lukasz-madon/awesome-remote-job
+  category: 生活
+  tier: 值得看
+  what: 远程工作文章、职位板和工具的资源目录
+  verdict: README 以 CC0 放弃版权，所列链接的时效尚未逐条核对；我还没看过。
+  status: 收藏
+- repo: XiaomingX/ai-money-maker-handbook
+  category: 学习资源
+  tier: 值得看
+  what: 汇集 AI 副业方法、工具和文章的资料库
+  verdict: 以 Apache-2.0 发布，只作资料收藏，其中的收益说法尚未验证；我还没看过。
+  status: 收藏
+- repo: paperswithbacktest/awesome-systematic-trading
+  category: 学习资源
+  tier: 值得看
+  what: 系统化交易的论文、软件和书籍目录
+  verdict: 只作阅读和资源清单收藏，不据此做交易信号分析；仓库未附许可证文件；我还没看过。
+  status: 收藏
+- repo: Usagi-org/ai-goofish-monitor
+  category: 浏览器与自动化
+  tier: 值得看
+  what: 用 Playwright 和 AI 监控闲鱼商品并提供 Web 管理界面的工具
+  verdict: 官方说明通过浏览器登录态做多任务监控，许可证为 MIT；我还没看过。
   status: 收藏
 own_projects:
 - repo: bmdy6/bmdy6

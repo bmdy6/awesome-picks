@@ -43,8 +43,8 @@
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-15。
+外部项目 **270** 个：精选 70、值得看 173、看过没选 27；自有公开项目 **7** 个。
+整理日期：2026-11-19。
 
 <a id="category-1"></a>
 
@@ -131,13 +131,14 @@
 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 提供界面审查与设计改进指令的技能库 | 用 polish、critique、audit 等指令细化界面设计与审查。 | 收藏 |
 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | 生成机器与复杂系统交互示意图的技能 | 把抽象概念变成可操作的交互图形和工作对象。 | 收藏 |
 
-<details><summary>值得看（19）</summary>
+<details><summary>值得看（24）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [adewale/good-readme](https://github.com/adewale/good-readme) | 编写和改进 GitHub README 的技能 | 根据实际源码分析编写或改善 README。 | 收藏 |
 | [byadityaraj/designmd](https://github.com/byadityaraj/designmd) | 从网站提取可复用设计上下文的工具 | 从真实网页提取颜色、字体、间距和交互等设计依据。 | 收藏 |
 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 分阶段执行并核实安全审计发现的技能 | 组织安全侦察、候选漏洞验证和结构化报告流程。 | 收藏 |
+| [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 给编程 Agent 用的营销技能集，覆盖文案、SEO、转化和增长 | 以 MIT 发布，并按文案、SEO、转化、分析和增长等任务拆成可组合技能；我还没看过。 | 收藏 |
 | [DECRUX9812/typesafe-skill-router](https://github.com/DECRUX9812/typesafe-skill-router) | 为 Hermes 按需选择技能的路由扩展 | 在模型调用前选出值得加载的技能，减少无关技能上下文。 | 收藏 |
 | [dembrandt/dembrandt](https://github.com/dembrandt/dembrandt) | 从网页提取颜色、字体与其他设计 token 的工具 | 从网站提取设计系统并输出 W3C 设计 Token，可接 CI 检查。 | 收藏 |
 | [Dicklesworthstone/skillranker](https://github.com/Dicklesworthstone/skillranker) | 根据当前会话为技能排序的命令行工具 | 以独立 Rust CLI 对下一步可用技能排序。 | 收藏 |
@@ -148,9 +149,13 @@
 | [GodsBoy/jev-agent-skill-router](https://github.com/GodsBoy/jev-agent-skill-router) | 为 Agent 技能进行分类、排序与置信度判断的路由器 | 比较语义技能路由和词面基线，提供可回查的合成请求评测。 | 收藏 |
 | [Hiro-Inagawa/write-like-me](https://github.com/Hiro-Inagawa/write-like-me) | 从写作样本构建文风档案并用规则检查的工具 | 提供无需安装依赖即可运行的 Markdown 文风检查器。 | 收藏 |
 | [irenerachel/xiaohongshu-layout-factory-skill](https://github.com/irenerachel/xiaohongshu-layout-factory-skill) | 将 IP 素材组织成小红书图集模板的技能 | 从 IP 素材生成专属排版技能、HTML 模板和逐页质检流程。 | 收藏 |
+| [joeseesun/qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm) | 把网页、PDF 等内容交给 NotebookLM 生成资料的 Agent 技能 | 官方说明可生成播客、幻灯片、思维导图或测验，许可证为 MIT，不能替代本地知识库；我还没看过。 | 收藏 |
 | [marcusnelson/write-like-me-claude-skill](https://github.com/marcusnelson/write-like-me-claude-skill) | 让 Agent 从写作样本学习个人文风的技能 | 从作者样本学习文风，形成可复用的写作技能。 | 收藏 |
 | [Moosphan/readme-generator-skill](https://github.com/Moosphan/readme-generator-skill) | 根据项目内容生成 README 的技能 | 为 Codex 和 Claude Code 提供 README 编写流程。 | 收藏 |
 | [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Obsidian 官方为编程助手提供的 Markdown、Bases、Canvas 与 CLI 技能 | 让 Agent 直接写出双链、callout、属性等原生格式，减少知识库格式返工；我还没看过。 | 收藏 |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 生成单文件 HTML 横向翻页幻灯片的 Agent 技能 | 面向 Claude Code 和 Codex 等环境，许可证为 AGPL-3.0；我还没看过。 | 收藏 |
+| [op7418/guizang-social-card-skill](https://github.com/op7418/guizang-social-card-skill) | 生成小红书图文组图和公众号封面的 Agent 技能 | 官方说明用于信息流图文和公众号横版、方形封面对，许可证为 AGPL-3.0；我还没看过。 | 收藏 |
+| [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 减少中文模板化表达和 AI 文风痕迹的 Agent 技能 | README 写明保留事实与作者声音，不能证明作者身份，也不保证通过 AI 检测；用途不同于从会话提取文风再润色的 bmdy6/skill-style-polish，仓库为 MIT；我还没看过。 | 收藏 |
 | [Shawnchee/design-scan](https://github.com/Shawnchee/design-scan) | 抓取网页布局、字体和颜色并生成设计文档的技能 | 结合网页抓取、截图和交互观察生成 design.md。 | 收藏 |
 | [shengjidaguai-china/personal-homepage-skill](https://github.com/shengjidaguai-china/personal-homepage-skill) | 生成个人主页和 HTML 演示文稿的技能 | 把个人主页、作品集与 HTML 演示模板配成 Agent 技能。 | 收藏 |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 收集 AI 产品系统提示词与工具定义的资料库 | 汇集 AI 工具的提示词和相关资料，供对照阅读。 | 收藏 |
@@ -323,7 +328,7 @@
 | --- | --- | --- | --- |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 获取网页正文并转成结构化内容的服务 | 2026-08 暂缓：已有搜索 API，尚无批量网页正文采集刚需。 | 收藏 |
 
-<details><summary>值得看（16）</summary>
+<details><summary>值得看（17）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -342,6 +347,7 @@
 | [openai/tart](https://github.com/openai/tart) | 在 Apple Silicon 上管理虚拟机的工具 | 考虑用于隔离桌面验收，当前仅做方案与脚本准备。 | 收藏 |
 | [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern) | 通过视觉理解执行网页任务的自动化框架 | 结合大模型与视觉处理浏览器工作流。 | 收藏 |
 | [trycua/cua](https://github.com/trycua/cua) | 为 Agent 提供隔离电脑与操作能力的工具集 | 考虑用独立桌面做原生应用验收，尚未搭建并跑通目标虚拟机。 | 收藏 |
+| [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor) | 用 Playwright 和 AI 监控闲鱼商品并提供 Web 管理界面的工具 | 官方说明通过浏览器登录态做多任务监控，许可证为 MIT；我还没看过。 | 收藏 |
 | [ZJU-REAL/Easel](https://github.com/ZJU-REAL/Easel) | 面向小红书、抖音、知乎、B 站等平台的社媒 Agent，可发现热点、创作、发布并回流数据 | 把找热点、写内容、多平台发布和数据回流串成一套，走的是非官方接口；我还没看过。 | 收藏 |
 
 </details>
@@ -448,7 +454,7 @@
 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 面向本地模型推理的工具项目 | 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。 | 收藏 |
 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | 在本地运行和微调模型的工具 | 旧结论为低优先级观察，没有具体训练需求，暂不安装或替换链路。 | 收藏 |
 
-<details><summary>值得看（9）</summary>
+<details><summary>值得看（11）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
@@ -459,8 +465,10 @@
 | [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | 通过配置组织模型后训练流程的命令行工具 | 用同一份配置和命令组织模型微调与后训练。 | 收藏 |
 | [mdn/translated-content](https://github.com/mdn/translated-content) | MDN Web 文档的翻译内容仓库 | 提供 MDN Web 文档的多语言翻译与贡献规范。 | 收藏 |
 | [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) | 生成式 AI 入门课程与代码练习 | 用分节课程和配套代码带入生成式 AI 应用开发。 | 收藏 |
+| [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | 系统化交易的论文、软件和书籍目录 | 只作阅读和资源清单收藏，不据此做交易信号分析；仓库未附许可证文件；我还没看过。 | 收藏 |
 | [PrimeIntellect-ai/lab-cookbook](https://github.com/PrimeIntellect-ai/lab-cookbook) | 包含提示词优化等实验教程的资料集 | 按步骤覆盖 Agent 创建、评测、训练与部署实验。 | 收藏 |
 | [will-17173/coding-plan-collection](https://github.com/will-17173/coding-plan-collection) | 汇总 AI 编程订阅方案与使用信息的资料库 | 按套餐类型集中比较 AI 编程与 Token 方案。 | 收藏 |
+| [XiaomingX/ai-money-maker-handbook](https://github.com/XiaomingX/ai-money-maker-handbook) | 汇集 AI 副业方法、工具和文章的资料库 | 以 Apache-2.0 发布，只作资料收藏，其中的收益说法尚未验证；我还没看过。 | 收藏 |
 
 </details>
 
@@ -538,12 +546,13 @@
 | --- | --- | --- | --- |
 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 记录健身训练并提供 API 与 MCP 的应用 | 整套合入会重复前端和训练数据，先独立体验，再考虑 API/MCP。 | 收藏 |
 
-<details><summary>值得看（5）</summary>
+<details><summary>值得看（6）</summary>
 
 | 项目 | 是什么 | 为什么收藏 | 状态 |
 | --- | --- | --- | --- |
 | [amitgambhir/crushit](https://github.com/amitgambhir/crushit) | 用任务与奖励组织家庭协作的应用 | 让孩子完成家庭任务获取积分，再兑换家长设置的奖励。 | 收藏 |
 | [ErTasselli/OpenTerminal](https://github.com/ErTasselli/OpenTerminal) | 以终端界面展示公开金融市场数据的工具 | 以免费公开市场数据构建键盘驱动的终端式工作台。 | 收藏 |
+| [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job) | 远程工作文章、职位板和工具的资源目录 | README 以 CC0 放弃版权，所列链接的时效尚未逐条核对；我还没看过。 | 收藏 |
 | [shengjidaguai-china/BossHunter](https://github.com/shengjidaguai-china/BossHunter) | 辅助职位筛选、简历和求职跟进的工具 | 已检查本机求职工具与 Agent API，材料准确性和实际流程待验证。 | 收藏 |
 | [tempus2016/taskmate](https://github.com/tempus2016/taskmate) | 结合家庭任务与奖励的管理工具 | 在 Home Assistant 中管理家务、奖励及连续完成记录。 | 收藏 |
 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 分析股票行情与新闻并生成推送的工具 | 将自选股行情和新闻分析生成仪表盘并推送到多个渠道。 | 收藏 |
