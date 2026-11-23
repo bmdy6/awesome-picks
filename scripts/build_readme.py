@@ -32,7 +32,7 @@ def validate(data):
     def require(condition, message):
         if not condition:
             raise ValueError(message)
-    require(isinstance(data, dict) and set(data) == {'updated_at', 'repos', 'own_projects'}, 'invalid top-level fields')
+    require(isinstance(data, dict) and set(data) == {'updated_at', 'repos', 'own_projects', 'sites'}, 'invalid top-level fields')
     require(isinstance(data['updated_at'], str), 'updated_at must be a date string')
     date.fromisoformat(data['updated_at'])
     seen = set()
@@ -58,6 +58,15 @@ def validate(data):
                     require(all(public_https_url(preview[field]) for field in ('image', 'url')), f'invalid preview URL: {repo}')
             else:
                 require(repo.startswith('bmdy6/'), 'own projects must belong to bmdy6')
+    require(isinstance(data['sites'], list) and data['sites'], 'sites must be a nonempty list')
+    seen_urls = set()
+    for row in data['sites']:
+        fields = {'name', 'url', 'style', 'what', 'x'}
+        require(isinstance(row, dict) and fields <= row.keys() <= fields | {'homepage_ref'}, 'sites: invalid fields')
+        require(all(single_line_text(row[f]) for f in row), f"sites: invalid text: {row.get('name')}")
+        require(public_https_url(row['url']) and public_https_url(row['x']), f"sites: invalid URL: {row['name']}")
+        require(row['url'].lower() not in seen_urls, f"duplicate site: {row['url']}")
+        seen_urls.add(row['url'].lower())
 
 
 def cell(text):
@@ -104,6 +113,19 @@ def project_previews(rows):
     return lines
 
 
+def sites_section(sites):
+    lines = ['<a id="sites"></a>', '', '## 好看的前端页面', '',
+             '做页面时找灵感用的网站，按风格分组。效果多来自作者原帖或演示视频，不代表逐站实测。', '',
+             '标 ★ 的是我的个人主页正在参考的，括号里是参考到哪一块。', '']
+    for style in dict.fromkeys(r['style'] for r in sites):
+        lines += [f'### {style}', '', '| 网站 | 亮点 | 来源 |', '| --- | --- | --- |']
+        for r in (r for r in sites if r['style'] == style):
+            star = f" ★（{cell(r['homepage_ref'])}）" if 'homepage_ref' in r else ''
+            lines.append(f"| [{cell(r['name'])}]({r['url']}){star} | {cell(r['what'])} | [X 原帖]({r['x']}) |")
+        lines.append('')
+    return lines
+
+
 def render(data):
     validate(data)
     repos, own = data['repos'], data['own_projects']
@@ -116,8 +138,8 @@ def render(data):
              '状态只用 **在用 / 试过 / 收藏**；收藏不代表已试用，历史试用也不代表持续在用。',
              '“为什么收藏”优先保留已有判断；缺少判断时概括仓库 README 的客观亮点，不代表效果已经验证。', '', *starter_cards(repos), '## 目录', '']
     lines += [f'- [{category}](#category-{i})' for i, category in enumerate(categories, 1)]
-    lines += ['- [我自己的项目](#own-projects)', '- [维护方式](#maintenance)', '',
-              f"外部项目 **{len(repos)}** 个：精选 {tiers['精选']}、值得看 {tiers['值得看']}、看过没选 {tiers['看过没选']}；自有公开项目 **{len(own)}** 个。", f"整理日期：{data['updated_at']}。", '']
+    lines += ['- [好看的前端页面](#sites)', '- [我自己的项目](#own-projects)', '- [维护方式](#maintenance)', '',
+              f"外部项目 **{len(repos)}** 个：精选 {tiers['精选']}、值得看 {tiers['值得看']}、看过没选 {tiers['看过没选']}；自有公开项目 **{len(own)}** 个。", f"另收好看的前端页面 **{len(data['sites'])}** 个。", f"整理日期：{data['updated_at']}。", '']
     for i, category in enumerate(categories, 1):
         lines += [f'<a id="category-{i}"></a>', '', f'## {category}', '']
         lines += project_previews(r for r in repos if r['category'] == category)
@@ -132,9 +154,11 @@ def render(data):
             lines += table(rows) + ['']
             if tier == '值得看':
                 lines += ['</details>', '']
+    lines += sites_section(data['sites'])
     lines += ['', '<a id="maintenance"></a>', '', '## 维护方式', '',
               '唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。', '',
               '新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。', '',
+              '好看的前端页面放在 `sites`，填写 `name`、`url`、`style`（风格分组）、`what`（亮点）、`x`（来源帖）；个人主页在参考的加 `homepage_ref`。', '',
               '能用截图讲清用途的项目可加 `preview`。填写公开截图地址 `image`、官方演示链接 `url`、替代文字 `alt` 和图注 `caption`。', '',
               '```bash', 'python3 -m pip install PyYAML==6.0.3', 'python3 scripts/build_readme.py', 'python3 scripts/build_readme.py --check', '```', '',
               'CI 校验 YAML 字段与 README 是否同步。公开数据不保存私人路径、浏览记录、会话原文或来源证据字段。', '',
