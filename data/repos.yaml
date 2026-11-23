@@ -1,4 +1,4 @@
-updated_at: '2026-11-15'
+updated_at: '2026-11-23'
 repos:
 - repo: bagidea/bagidea-office
   category: AI Agent 与框架
@@ -1591,3 +1591,148 @@ own_projects:
   what: 从会话提取文风并保持原意润色的技能
 - repo: bmdy6/stylepolish
   what: 在 Mac 输入框停笔后提供润色的菜单栏应用
+sites:
+- name: Bogdan Skripka
+  url: https://bohdan.design/
+  style: 交互与动效
+  what: 超大字视差叠人物，十字光标带像素拖影，像素块遮罩转场
+  x: https://x.com/LenisSmooth/status/2035008461143253117
+  homepage_ref: 首屏
+- name: Hiroto Sato
+  url: https://www.hirotos.com
+  style: 交互与动效
+  what: 把导航做成可转动的路牌、信号灯和凸面镜，白底亮色
+  x: https://x.com/awwwards/status/2078027783586857206
+  homepage_ref: 作品区
+- name: Jacob Jolibois
+  url: https://www.jacobjolibois.com/
+  style: 交互与动效
+  what: 拖动笔记本，点开放大、翻页、合书缩回
+  x: https://x.com/jacobjolibois/status/2090505729140555859
+  homepage_ref: 书房入口
+- name: Carter Ogunsola
+  url: https://carterogunsola.com
+  style: 交互与动效
+  what: 用印刷店隐喻组织作品，双轮压印机、吊牌和打字信
+  x: https://x.com/awwwards/status/2123341416700998073
+- name: Maria Vasilyeva
+  url: https://www.mariavasilyeva.com/
+  style: 交互与动效
+  what: 音乐节奏、字形和动画协同，章节式作品目录，带声音开关
+  x: https://x.com/awwwards/status/2108468206914474345
+- name: Glenn Catteeuw
+  url: https://glenncatteeuw.com/
+  style: 交互与动效
+  what: 无限滚动项目目录与大幅影像之间的转场
+  x: https://x.com/awwwards/status/2006652494990958797
+- name: Bruno Simon
+  url: https://bruno-simon.com/
+  style: 3D 与沉浸
+  what: 开车探索 3D 岛屿看作品，WebGPU 物理和昼夜、雨雪变化
+  x: https://x.com/bruno_simon/status/1998361646939689235
+- name: Long Hoang (Lyo)
+  url: https://longhoang-lyo.com/
+  style: 3D 与沉浸
+  what: Three.js、GSAP、Rapier 做的可探索 3D 作品集，保留文本入口
+  x: https://x.com/bruno_simon/status/2114728245598036382
+- name: Guillaume Colombel
+  url: https://guillaumecolombel.fr/
+  style: 3D 与沉浸
+  what: 橙色荒漠和巨型岩石场景，给代表作做进入仪式
+  x: https://x.com/guicolombel/status/2102376490054603174
+- name: Mr. Panda's Paper Portfolio
+  url: https://www.mr-pandas-psychologically-safe-portfolio.com/
+  style: 3D 与沉浸
+  what: 3D 纸艺、手绘笔记纸和木偶，像一本有温度的手账
+  x: https://x.com/awwwards/status/2031657164465373222
+- name: Patricia Mou
+  url: https://www.patriciamou.com/
+  style: 安静的书房与文本
+  what: 米白底细衬线，写作、项目、书架收在同一套轻导航里
+  x: https://x.com/patriciamou_/status/2118932345495368034
+  homepage_ref: 文章和书单页
+- name: Dima Omelian
+  url: https://domelian.com/books
+  style: 安静的书房与文本
+  what: 衬线正文配绿色细分隔线，按年份排列的书单
+  x: https://x.com/dmytroomelian/status/2002421973285318698
+- name: Aditya Kharbanda · Library
+  url: https://adityakharbanda.dev/library/
+  style: 安静的书房与文本
+  what: Reading、Up Next、Read 三张卡片分层列书
+  x: https://x.com/K_aditya25/status/2111507264058052655
+- name: Max Katz
+  url: https://maxkatz.me/
+  style: 安静的书房与文本
+  what: 窄列灰黑排版串起介绍、经历和开源项目，信息密但不花哨
+  x: https://x.com/maxktz/status/2094490426153501029
+- name: Artem Shcherban
+  url: https://artemshcherban.com
+  style: 编辑排版与作品索引
+  what: 白底抽象曲线，用小字标出 ideas、concept、design、result
+  x: https://x.com/awwwards/status/2040701698935574991
+- name: Cathy Dolle
+  url: https://www.cathydolle.com/
+  style: 编辑排版与作品索引
+  what: 编号项目列表配居中作品图，List 和 Slider 两种浏览方式
+  x: https://x.com/awwwards/status/2027308393988305389
+- name: Gil Huybrecht
+  url: https://gilhuybrecht.com/
+  style: 编辑排版与作品索引
+  what: 炭黑底缩略图档案墙，适合作品很多时做地图
+  x: https://x.com/awwwards/status/2101945230211568099
+- name: Gionatan Nese
+  url: https://www.gionatannese.com/
+  style: 编辑排版与作品索引
+  what: 大留白里用环状小作品卡建立记忆点
+  x: https://x.com/awwwards/status/2096146936789156336
+- name: 2xA Studio
+  url: https://2xa.studio/
+  style: 编辑排版与作品索引
+  what: 黑白报纸式多栏文字穿插超大标题
+  x: https://x.com/awwwards/status/2083101143379435814
+- name: Ethan & Tom
+  url: https://ethanandtom.com
+  style: 编辑排版与作品索引
+  what: 克制的黑底缩略图矩阵，让摄影和影片色彩自己说话
+  x: https://x.com/awwwards/status/2018248721876533555
+- name: Neutomni
+  url: https://neutomni.com/
+  style: 编辑排版与作品索引
+  what: 朱红和米白两色，压缩大字标配衬线副标题
+  x: https://x.com/awwwards/status/2109917839805001781
+- name: Haoqi Wen
+  url: https://haoqi.design/
+  style: 明亮个性
+  what: 蓝白配柔和虹彩和立体 Hello 标题
+  x: https://x.com/awwwards/status/2088174462780715265
+- name: Léo Parpeix
+  url: https://leoparpeix.com/
+  style: 明亮个性
+  what: 明亮绿植和一朵夸张白花做视觉中心
+  x: https://x.com/awwwards/status/2099408594881884632
+- name: Artem Shcherbakov
+  url: https://artemartemartem.com/
+  style: 明亮个性
+  what: 白底三段式小导航、窄幅作品图和荧光绿手写标注
+  x: https://x.com/awwwards/status/2080926632718545281
+- name: Maksym Bleibtgleich
+  url: https://bleibtgleich.dev
+  style: 明亮个性
+  what: 白底被橙色边框和虹彩边缘包围，字标紧凑
+  x: https://x.com/awwwards/status/2102307876748337626
+- name: Corentin Bernadou
+  url: https://corentinbernadou.com/
+  style: 高对比图像
+  what: 黑底配醒目红色项目字母，动画驱动的项目切换
+  x: https://x.com/awwwards/status/2036730740109394062
+- name: Artemii Lebedev
+  url: https://artemiilebedev.com
+  style: 高对比图像
+  what: 深色舞台上倾斜的屏幕作品，空间层次强
+  x: https://x.com/awwwards/status/2124428590615806160
+- name: Boc.Studio
+  url: https://boc.studio/
+  style: 高对比图像
+  what: 橙色细导航条贯穿灰色材质背景，微交互讲究
+  x: https://x.com/awwwards/status/2101220371148005818

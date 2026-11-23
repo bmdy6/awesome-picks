@@ -40,11 +40,13 @@
 - [效率与 Mac 工具](#category-10)
 - [游戏与趣味](#category-11)
 - [生活](#category-12)
+- [好看的前端页面](#sites)
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
 外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
-整理日期：2026-11-15。
+另收好看的前端页面 **28** 个。
+整理日期：2026-11-23。
 
 <a id="category-1"></a>
 
@@ -550,6 +552,72 @@
 
 </details>
 
+<a id="sites"></a>
+
+## 好看的前端页面
+
+做页面时找灵感用的网站，按风格分组。效果多来自作者原帖或演示视频，不代表逐站实测。
+
+标 ★ 的是我的个人主页正在参考的，括号里是参考到哪一块。
+
+### 交互与动效
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Bogdan Skripka](https://bohdan.design/) ★（首屏） | 超大字视差叠人物，十字光标带像素拖影，像素块遮罩转场 | [X 原帖](https://x.com/LenisSmooth/status/2035008461143253117) |
+| [Hiroto Sato](https://www.hirotos.com) ★（作品区） | 把导航做成可转动的路牌、信号灯和凸面镜，白底亮色 | [X 原帖](https://x.com/awwwards/status/2078027783586857206) |
+| [Jacob Jolibois](https://www.jacobjolibois.com/) ★（书房入口） | 拖动笔记本，点开放大、翻页、合书缩回 | [X 原帖](https://x.com/jacobjolibois/status/2090505729140555859) |
+| [Carter Ogunsola](https://carterogunsola.com) | 用印刷店隐喻组织作品，双轮压印机、吊牌和打字信 | [X 原帖](https://x.com/awwwards/status/2123341416700998073) |
+| [Maria Vasilyeva](https://www.mariavasilyeva.com/) | 音乐节奏、字形和动画协同，章节式作品目录，带声音开关 | [X 原帖](https://x.com/awwwards/status/2108468206914474345) |
+| [Glenn Catteeuw](https://glenncatteeuw.com/) | 无限滚动项目目录与大幅影像之间的转场 | [X 原帖](https://x.com/awwwards/status/2006652494990958797) |
+
+### 3D 与沉浸
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Bruno Simon](https://bruno-simon.com/) | 开车探索 3D 岛屿看作品，WebGPU 物理和昼夜、雨雪变化 | [X 原帖](https://x.com/bruno_simon/status/1998361646939689235) |
+| [Long Hoang (Lyo)](https://longhoang-lyo.com/) | Three.js、GSAP、Rapier 做的可探索 3D 作品集，保留文本入口 | [X 原帖](https://x.com/bruno_simon/status/2114728245598036382) |
+| [Guillaume Colombel](https://guillaumecolombel.fr/) | 橙色荒漠和巨型岩石场景，给代表作做进入仪式 | [X 原帖](https://x.com/guicolombel/status/2102376490054603174) |
+| [Mr. Panda's Paper Portfolio](https://www.mr-pandas-psychologically-safe-portfolio.com/) | 3D 纸艺、手绘笔记纸和木偶，像一本有温度的手账 | [X 原帖](https://x.com/awwwards/status/2031657164465373222) |
+
+### 安静的书房与文本
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Patricia Mou](https://www.patriciamou.com/) ★（文章和书单页） | 米白底细衬线，写作、项目、书架收在同一套轻导航里 | [X 原帖](https://x.com/patriciamou_/status/2118932345495368034) |
+| [Dima Omelian](https://domelian.com/books) | 衬线正文配绿色细分隔线，按年份排列的书单 | [X 原帖](https://x.com/dmytroomelian/status/2002421973285318698) |
+| [Aditya Kharbanda · Library](https://adityakharbanda.dev/library/) | Reading、Up Next、Read 三张卡片分层列书 | [X 原帖](https://x.com/K_aditya25/status/2111507264058052655) |
+| [Max Katz](https://maxkatz.me/) | 窄列灰黑排版串起介绍、经历和开源项目，信息密但不花哨 | [X 原帖](https://x.com/maxktz/status/2094490426153501029) |
+
+### 编辑排版与作品索引
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Artem Shcherban](https://artemshcherban.com) | 白底抽象曲线，用小字标出 ideas、concept、design、result | [X 原帖](https://x.com/awwwards/status/2040701698935574991) |
+| [Cathy Dolle](https://www.cathydolle.com/) | 编号项目列表配居中作品图，List 和 Slider 两种浏览方式 | [X 原帖](https://x.com/awwwards/status/2027308393988305389) |
+| [Gil Huybrecht](https://gilhuybrecht.com/) | 炭黑底缩略图档案墙，适合作品很多时做地图 | [X 原帖](https://x.com/awwwards/status/2101945230211568099) |
+| [Gionatan Nese](https://www.gionatannese.com/) | 大留白里用环状小作品卡建立记忆点 | [X 原帖](https://x.com/awwwards/status/2096146936789156336) |
+| [2xA Studio](https://2xa.studio/) | 黑白报纸式多栏文字穿插超大标题 | [X 原帖](https://x.com/awwwards/status/2083101143379435814) |
+| [Ethan &amp; Tom](https://ethanandtom.com) | 克制的黑底缩略图矩阵，让摄影和影片色彩自己说话 | [X 原帖](https://x.com/awwwards/status/2018248721876533555) |
+| [Neutomni](https://neutomni.com/) | 朱红和米白两色，压缩大字标配衬线副标题 | [X 原帖](https://x.com/awwwards/status/2109917839805001781) |
+
+### 明亮个性
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Haoqi Wen](https://haoqi.design/) | 蓝白配柔和虹彩和立体 Hello 标题 | [X 原帖](https://x.com/awwwards/status/2088174462780715265) |
+| [Léo Parpeix](https://leoparpeix.com/) | 明亮绿植和一朵夸张白花做视觉中心 | [X 原帖](https://x.com/awwwards/status/2099408594881884632) |
+| [Artem Shcherbakov](https://artemartemartem.com/) | 白底三段式小导航、窄幅作品图和荧光绿手写标注 | [X 原帖](https://x.com/awwwards/status/2080926632718545281) |
+| [Maksym Bleibtgleich](https://bleibtgleich.dev) | 白底被橙色边框和虹彩边缘包围，字标紧凑 | [X 原帖](https://x.com/awwwards/status/2102307876748337626) |
+
+### 高对比图像
+
+| 网站 | 亮点 | 来源 |
+| --- | --- | --- |
+| [Corentin Bernadou](https://corentinbernadou.com/) | 黑底配醒目红色项目字母，动画驱动的项目切换 | [X 原帖](https://x.com/awwwards/status/2036730740109394062) |
+| [Artemii Lebedev](https://artemiilebedev.com) | 深色舞台上倾斜的屏幕作品，空间层次强 | [X 原帖](https://x.com/awwwards/status/2124428590615806160) |
+| [Boc.Studio](https://boc.studio/) | 橙色细导航条贯穿灰色材质背景，微交互讲究 | [X 原帖](https://x.com/awwwards/status/2101220371148005818) |
+
 
 <a id="maintenance"></a>
 
@@ -558,6 +626,8 @@
 唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。
 
 新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。
+
+好看的前端页面放在 `sites`，填写 `name`、`url`、`style`（风格分组）、`what`（亮点）、`x`（来源帖）；个人主页在参考的加 `homepage_ref`。
 
 能用截图讲清用途的项目可加 `preview`。填写公开截图地址 `image`、官方演示链接 `url`、替代文字 `alt` 和图注 `caption`。
 
