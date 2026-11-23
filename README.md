@@ -1,3 +1,5 @@
+低维护：作为作品展示，Issue 可能不及时回复
+
 # Awesome Picks
 
 我的 GitHub 项目收藏，按用途保留亮点、取舍和使用状态。
@@ -40,11 +42,12 @@
 - [效率与 Mac 工具](#category-10)
 - [游戏与趣味](#category-11)
 - [生活](#category-12)
+- [浏览器游戏](#browser-games)
 - [好看的前端页面](#sites)
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
 
-外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **7** 个。
+外部项目 **261** 个：精选 70、值得看 164、看过没选 27；自有公开项目 **5** 个。
 另收好看的前端页面 **28** 个。
 整理日期：2026-11-23。
 
@@ -552,6 +555,16 @@
 
 </details>
 
+<a id="browser-games"></a>
+
+## 浏览器游戏
+
+合并自 awesome-browser-games-zh：30 款游戏、6 类玩法，原有中文说明、官方试玩、源码、图片与许可说明完整保留。
+
+[按玩法找游戏](categories/browser-games/README.md) · [打开静态游戏馆源码](categories/browser-games/index.html) · [数据](categories/browser-games/data/games.json)
+
+仅迁移清单和静态内容，未逐款进入对局实测；旧站点链接作为历史入口保留，未配置或发布新站点。
+
 <a id="sites"></a>
 
 ## 好看的前端页面
@@ -623,7 +636,7 @@
 
 ## 维护方式
 
-唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。
+项目与前端页面数据源是 [data/repos.yaml](data/repos.yaml)，浏览器游戏分类独立保存在 [categories/browser-games/](categories/browser-games/README.md)。请勿手改生成的 README。
 
 新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。
 
@@ -651,7 +664,5 @@ CI 校验 YAML 字段与 README 是否同步。公开数据不保存私人路径
 | [bmdy6/bmdy6](https://github.com/bmdy6/bmdy6) | 个人 GitHub 主页说明 |
 | [bmdy6/knowledge-mcp](https://github.com/bmdy6/knowledge-mcp) | 以 Markdown 为知识源、Git 为版本边界并提供受保护 MCP 访问的知识库 |
 | [bmdy6/research-mcp](https://github.com/bmdy6/research-mcp) | 为 Agent 提供多来源搜索与原文读取的 CLI 和 MCP |
-| [bmdy6/skill-design-from-sites](https://github.com/bmdy6/skill-design-from-sites) | 从参考网站提取可追溯设计依据的 Agent 技能 |
-| [bmdy6/skill-readme-from-code](https://github.com/bmdy6/skill-readme-from-code) | 按源码和实际命令编写 README 的 Agent 技能 |
-| [bmdy6/skill-style-polish](https://github.com/bmdy6/skill-style-polish) | 从会话提取文风并保持原意润色的技能 |
+| [bmdy6/agent-skills](https://github.com/bmdy6/agent-skills) | 日常 Agent 技能集，含设计规范提取、源码 README、文风润色和会话保活 |
 | [bmdy6/stylepolish](https://github.com/bmdy6/stylepolish) | 在 Mac 输入框停笔后提供润色的菜单栏应用 |

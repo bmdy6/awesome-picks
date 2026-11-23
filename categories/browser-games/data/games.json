@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "title": "Awesome Browser Games 中文精选",
+    "description": "精选真正想点进去玩的网页游戏，中文分类与官方试玩入口。",
+    "updated_at": "2026-11-09",
+    "playtest_notice": "官方页面/源码核验不等于真实浏览器实玩；区域网络、注册和设备情况待逐项测试。",
+    "source_notice": "本仓库只收藏链接，不搬运游戏代码和第三方素材。"
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "全部游戏",
+      "emoji": "🎮"
+    },
+    {
+      "id": "shooting",
+      "name": "涂地与射击",
+      "emoji": "🎯"
+    },
+    {
+      "id": "vehicles",
+      "name": "坦克与载具",
+      "emoji": "🚙"
+    },
+    {
+      "id": "strategy",
+      "name": "战争与领土",
+      "emoji": "🗺️"
+    },
+    {
+      "id": "action",
+      "name": "动作与冒险",
+      "emoji": "⚔️"
+    },
+    {
+      "id": "building",
+      "name": "经营与建造",
+      "emoji": "🏗️"
+    },
+    {
+      "id": "party",
+      "name": "多人休闲",
+      "emoji": "🎉"
+    }
+  ],
+  "games": [
+    {
+      "id": "inkwave",
+      "name": "INKWAVE",
+      "category": "shooting",
+      "summary": "《喷射战士》风格的 4v4 涂地对抗，能潜入墨汁、组队开私人房间，还能打 Boss。",
+      "play_url": "https://inkwavegame.com/play/",
+      "source_url": "https://github.com/jaydendavisnc/inkwave",
+      "source_status": "unavailable",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "多人",
+        "涂地",
+        "2026"
+      ],
+      "cover_url": "https://inkwavegame.com/_astro/hero.C6TF20Sq.jpg",
+      "note": "官网声称 MIT 开源，但 2026-11-09 源码仓库返回 404；Chrome/Edge 体验更佳。",
+      "featured": true,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "shell-shockers",
+      "name": "Shell Shockers",
+      "category": "shooting",
+      "summary": "操控鸡蛋角色进行欢乐第一人称枪战，节奏快、辨识度极高。",
+      "play_url": "https://shellshock.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "FPS",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://www.shellshock.io/img/previewImage_shellShockers.webp",
+      "note": "非开源，收录的是官方试玩入口。",
+      "featured": true,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "krunker",
+      "name": "Krunker.io",
+      "category": "shooting",
+      "summary": "快节奏像素 3D FPS，滑铲、射击、多人竞技。",
+      "play_url": "https://krunker.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "FPS",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://assets.krunker.io/promo/og_1200x630.jpg",
+      "note": "部分浏览器扩展可能影响游戏加载。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "narrow-one",
+      "name": "Narrow One",
+      "category": "shooting",
+      "summary": "中世纪弓箭夺旗射击，多人抢旗和地图攻防。",
+      "play_url": "https://narrow.one/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "多人",
+        "夺旗"
+      ],
+      "cover_url": "https://narrow.one/static/img/thumb.png",
+      "note": "官方入口为 narrow.one，不使用第三方镜像。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "suroi",
+      "name": "Suroi",
+      "category": "shooting",
+      "summary": "《Surviv.io》风格的俯视角吃鸡，装备、战术和多人组队。",
+      "play_url": "https://suroi.io/",
+      "source_url": "https://github.com/HasangerGames/suroi",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "多人",
+        "吃鸡",
+        "开源"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/HasangerGames/suroi/master/client/public/img/backgrounds/github_background.png",
+      "note": "官网在 2026 年仍发布活动公告。",
+      "featured": false,
+      "license": "开源，具体文件授权以原仓库为准",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "operation-ironhold",
+      "name": "Operation Ironhold",
+      "category": "shooting",
+      "summary": "用三分钟清理集装箱战场的单页 FPS，游戏本身是单个 HTML 文件。",
+      "play_url": "https://starknightt.github.io/operation-ironhold/",
+      "source_url": "https://github.com/StarKnightt/operation-ironhold",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "FPS",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/StarKnightt/operation-ironhold/main/screenshots/gameplay.jpg",
+      "note": "独立作者作品，2026 新作。",
+      "featured": false,
+      "license": "MIT",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "war-brokers",
+      "name": "War Brokers",
+      "category": "shooting",
+      "summary": "载具与枪械兼有的大地图多人 FPS，适合朋友组队。",
+      "play_url": "https://warbrokers.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "FPS",
+        "多人"
+      ],
+      "cover_url": "https://warbrokers.io/img/fbthumb.jpg",
+      "note": "多人在线游戏，网络情况影响可玩性。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "coro-solto",
+      "name": "Coro Solto",
+      "category": "shooting",
+      "summary": "带独特美术和巴西幽默的俯视角阵营枪战。",
+      "play_url": "https://www.corosolto.com.br/",
+      "source_url": "https://github.com/corosolto/client",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "多人",
+        "特色",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/corosolto/client/main/public/og-image.jpg",
+      "note": "官网可能以葡萄牙语显示；实际匹配状态待验。",
+      "featured": false,
+      "license": "AGPL-3.0",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "claude-of-tanks",
+      "name": "Claude of Tanks",
+      "category": "vehicles",
+      "summary": "硬核坦克对决！装甲穿透、可破坏场景、机器人与多人房间。",
+      "play_url": "https://cot.kevinliu.studio/",
+      "source_url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "坦克",
+        "多人",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/Kevin-Liu-01/Claude-of-Tanks/main/public/brand/og-image.png",
+      "note": "299 台载具与多个战场是项目作者公开说明；配置要求较高。",
+      "featured": true,
+      "license": "MIT",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "tanki-online",
+      "name": "Tanki Online",
+      "category": "vehicles",
+      "summary": "老牌 3D 坦克 PvP，组装炮塔与底盘，参加多人战斗。",
+      "play_url": "https://tankionline.com/en/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "坦克",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://tankionline.com/en/wp-content/themes/tanki2023/img/icon/logo_s.png",
+      "note": "浏览器游玩受账户和地区服务影响，可能含内购。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "smash-karts",
+      "name": "Smash Karts",
+      "category": "vehicles",
+      "summary": "赛车加炮弹大乱斗：边开卡丁车边捡武器轰对手。",
+      "play_url": "https://smashkarts.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "赛车",
+        "多人"
+      ],
+      "cover_url": "https://smashkarts.io/images/icon-144.png",
+      "note": "官方站支持浏览器和移动设备入口。",
+      "featured": true,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "wings-io",
+      "name": "Wings.io",
+      "category": "vehicles",
+      "summary": "小飞机空战，俯视角操作，拾取武器在空中追逐对手。",
+      "play_url": "https://wings.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "空战",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://wings.io/images/thumbnail.png",
+      "note": "官方地址待后续实玩验收。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "chrono-divide",
+      "name": "Chrono Divide（红警 2 网页版）",
+      "category": "strategy",
+      "summary": "重现《红色警戒 2》多人即时战略：造基地、出坦克、跨浏览器对战。",
+      "play_url": "https://chronodivide.com/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "RTS",
+        "红警",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://chronodivide.com/img/og-image.jpg",
+      "note": "粉丝制作的浏览器重实现，Beta；闭源，不代表拥有原作素材授权。",
+      "featured": true,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "openfront",
+      "name": "OpenFront.io",
+      "category": "strategy",
+      "summary": "扩张地图领土、建造设施和跨国结盟，多人实时领土争夺。",
+      "play_url": "https://openfront.io/",
+      "source_url": "https://github.com/openfrontio/OpenFrontIO",
+      "source_status": "open",
+      "zh_status": "yes",
+      "labels": [
+        "RTS",
+        "领土",
+        "多人",
+        "中文"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/openfrontio/OpenFrontIO/main/proprietary/images/KeyArt.jpg",
+      "note": "原仓库已有 zh-CN 和 zh-TW 语言包；代码 AGPL，素材另有许可。",
+      "featured": true,
+      "license": "AGPL-3.0",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "territorial",
+      "name": "Territorial.io",
+      "category": "strategy",
+      "summary": "一局拿下大陆！扩张、出兵、占领领地，支持多人对战。",
+      "play_url": "https://www.territorial.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "RTS",
+        "领土",
+        "多人"
+      ],
+      "cover_url": "",
+      "note": "官网有 Multiplayer 和 Custom Scenario 入口。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "kiomet",
+      "name": "Kiomet",
+      "category": "strategy",
+      "summary": "以塔楼为核心的多人即时战略：派兵连线、占塔和升级防线。",
+      "play_url": "https://kiomet.com/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "RTS",
+        "多人",
+        "领土"
+      ],
+      "cover_url": "https://kiomet.com/data/1920x1080.png",
+      "note": "可参考官网 help 了解操作。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "freeciv",
+      "name": "Freeciv-web",
+      "category": "strategy",
+      "summary": "网页版文明经营：从石器时代发展到太空时代，单人和多人都能玩。",
+      "play_url": "https://freecivweb.com/",
+      "source_url": "https://github.com/freeciv/freeciv-web",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "策略",
+        "经营",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png",
+      "note": "官网可选择单人、多人、热座和每日回合模式。",
+      "featured": false,
+      "license": "开源（见原仓库）",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "battle-drones",
+      "name": "Battle Drones",
+      "category": "strategy",
+      "summary": "两支无人机部队争夺资源和地盘的小型实时战略。",
+      "play_url": "https://simonw.github.io/battledrones/",
+      "source_url": "https://github.com/simonw/battledrones",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "RTS",
+        "实验",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/simonw/battledrones/main/art/raw/keyart-landscape.webp",
+      "note": "有趣的新项目，GitHub 热度不高，收在候选精选而非爆款。",
+      "featured": false,
+      "license": "Apache-2.0",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "voxel-musou",
+      "name": "Voxel Musou（体素无双）",
+      "category": "action",
+      "summary": "《真三国无双》风格的体素动作游戏，一骑当千、挑战武将和大批敌军。",
+      "play_url": "https://voxel-musou.vercel.app/",
+      "source_url": "https://github.com/mike007jd/voxel-musou",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "无双",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/mike007jd/voxel-musou/main/media/title.jpg",
+      "note": "2026 年 9 月创建，官网可玩性需实机验证。",
+      "featured": true,
+      "license": "MIT",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "long-wind",
+      "name": "长风 · Long Wind",
+      "category": "action",
+      "summary": "国产 3D 武侠动作：草原、竹林、场景探索和实时刀剑对战。",
+      "play_url": "https://jbang2004.github.io/long-wind/",
+      "source_url": "https://github.com/jbang2004/long-wind",
+      "source_status": "unknown",
+      "zh_status": "partial",
+      "labels": [
+        "3D",
+        "武侠",
+        "中文",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/jbang2004/long-wind/main/docs/media/steppe.jpg",
+      "note": "代码公开，但 GitHub API 未识别出明确 SPDX 许可证，二开须先核实许可。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "pokerogue",
+      "name": "PokéRogue",
+      "category": "action",
+      "summary": "宝可梦主题 Roguelite：随机挑战、收集道具、连续战斗与养成。",
+      "play_url": "https://pokerogue.net/",
+      "source_url": "https://github.com/pagefaultgames/pokerogue",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "Roguelite",
+        "回合制",
+        "热门"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/pagefaultgames/pokerogue-assets/beta/images/logo.png",
+      "note": "非官方粉丝游戏；代码 AGPL，精灵与其他资源的版权另算。",
+      "featured": false,
+      "license": "AGPL-3.0（代码）",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "isocity",
+      "name": "IsoCity",
+      "category": "building",
+      "summary": "画风精致的等距城市建造：规划街道、城市设施与交通。",
+      "play_url": "https://iso-city.com/",
+      "source_url": "https://github.com/amilich/isometric-city",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "3D",
+        "建造",
+        "2025"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/amilich/isometric-city/main/public/readme-image.png",
+      "note": "官方站提供 New Game 与 Co-op。",
+      "featured": true,
+      "license": "MIT",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "bloxd",
+      "name": "Bloxd.io",
+      "category": "building",
+      "summary": "积木世界沙盒：跑酷、建造、探索与多人模式。",
+      "play_url": "https://bloxd.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "沙盒",
+        "多人",
+        "像素"
+      ],
+      "cover_url": "https://bloxd.io/textures/miscImages/bloxd_io_free_online_games.jpg",
+      "note": "官方网页需要启用 JavaScript。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "townies",
+      "name": "Townies",
+      "category": "building",
+      "summary": "与朋友一起维护小镇：骑车送报、整理庭院、共同建设生活空间。",
+      "play_url": "https://townies.town/",
+      "source_url": "https://github.com/Brayden/townies",
+      "source_status": "open",
+      "zh_status": "unknown",
+      "labels": [
+        "合作",
+        "小镇",
+        "2026"
+      ],
+      "cover_url": "https://raw.githubusercontent.com/Brayden/townies/main/public/town-welcome.jpg",
+      "note": "初期版本可能需要账户；人数与匹配以官网为准。",
+      "featured": false,
+      "license": "Apache-2.0",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "tetrio",
+      "name": "TETR.IO",
+      "category": "party",
+      "summary": "竞技版俄罗斯方块风格堆叠对战，支持排位与朋友自建房。",
+      "play_url": "https://tetr.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "竞技",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://tetr.io/res/tetrio_social.png",
+      "note": "游戏官方不支持第三方修改客户端；这里只提供入口。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "bonk",
+      "name": "Bonk.io",
+      "category": "party",
+      "summary": "物理碰撞大乱斗：把其他玩家撞出地图，最多八人同玩。",
+      "play_url": "https://bonk.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "物理",
+        "多人",
+        "聚会"
+      ],
+      "cover_url": "",
+      "note": "可自建地图和房间。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "skribbl",
+      "name": "skribbl.io",
+      "category": "party",
+      "summary": "多人你画我猜，轮流作画、猜题、统计得分。",
+      "play_url": "https://skribbl.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "画画",
+        "多人",
+        "聚会"
+      ],
+      "cover_url": "https://skribbl.io/img/thumbnail.png",
+      "note": "支持私人房间。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "gartic-phone",
+      "name": "Gartic Phone",
+      "category": "party",
+      "summary": "画画传话游戏：一句话交给下一个人画，最后大家一起看离谱接龙。",
+      "play_url": "https://garticphone.com/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "画画",
+        "多人",
+        "聚会"
+      ],
+      "cover_url": "",
+      "note": "适合朋友连麦时一起玩。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "diep",
+      "name": "Diep.io",
+      "category": "party",
+      "summary": "操控方块战车升级枪管和属性，打碎图形并与玩家对抗。",
+      "play_url": "https://diep.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "竞技",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "",
+      "note": "无需把它误标成开源坦克游戏。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    },
+    {
+      "id": "slither",
+      "name": "Slither.io",
+      "category": "party",
+      "summary": "经典多人贪吃蛇竞技，吃光点长大并围住其他玩家。",
+      "play_url": "https://slither.io/",
+      "source_url": "",
+      "source_status": "closed",
+      "zh_status": "unknown",
+      "labels": [
+        "竞技",
+        "多人",
+        "经典"
+      ],
+      "cover_url": "https://slither.io/s/fbthumb5.jpg",
+      "note": "经典但仍具可玩性，作为少量老牌例外收录。",
+      "featured": false,
+      "license": "",
+      "checked_at": "2026-11-09",
+      "playtested": false
+    }
+  ]
+}

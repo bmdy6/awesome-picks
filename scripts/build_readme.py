@@ -131,14 +131,14 @@ def render(data):
     repos, own = data['repos'], data['own_projects']
     categories = list(dict.fromkeys(r['category'] for r in repos))
     tiers = Counter(r['tier'] for r in repos)
-    lines = ['# Awesome Picks', '', '我的 GitHub 项目收藏，按用途保留亮点、取舍和使用状态。', '',
+    lines = ['低维护：作为作品展示，Issue 可能不及时回复', '', '# Awesome Picks', '', '我的 GitHub 项目收藏，按用途保留亮点、取舍和使用状态。', '',
              '- **精选**：有主动收藏、star、正面判断或有效试用记录。',
              '- **值得看**：有阅读、讨论或调研线索，尚未形成采用结论。',
              '- **看过没选**：保留当时暂缓或不用的理由，只针对原场景。', '',
              '状态只用 **在用 / 试过 / 收藏**；收藏不代表已试用，历史试用也不代表持续在用。',
              '“为什么收藏”优先保留已有判断；缺少判断时概括仓库 README 的客观亮点，不代表效果已经验证。', '', *starter_cards(repos), '## 目录', '']
     lines += [f'- [{category}](#category-{i})' for i, category in enumerate(categories, 1)]
-    lines += ['- [好看的前端页面](#sites)', '- [我自己的项目](#own-projects)', '- [维护方式](#maintenance)', '',
+    lines += ['- [浏览器游戏](#browser-games)', '- [好看的前端页面](#sites)', '- [我自己的项目](#own-projects)', '- [维护方式](#maintenance)', '',
               f"外部项目 **{len(repos)}** 个：精选 {tiers['精选']}、值得看 {tiers['值得看']}、看过没选 {tiers['看过没选']}；自有公开项目 **{len(own)}** 个。", f"另收好看的前端页面 **{len(data['sites'])}** 个。", f"整理日期：{data['updated_at']}。", '']
     for i, category in enumerate(categories, 1):
         lines += [f'<a id="category-{i}"></a>', '', f'## {category}', '']
@@ -154,9 +154,13 @@ def render(data):
             lines += table(rows) + ['']
             if tier == '值得看':
                 lines += ['</details>', '']
+    lines += ['<a id="browser-games"></a>', '', '## 浏览器游戏', '',
+              '合并自 awesome-browser-games-zh：30 款游戏、6 类玩法，原有中文说明、官方试玩、源码、图片与许可说明完整保留。', '',
+              '[按玩法找游戏](categories/browser-games/README.md) · [打开静态游戏馆源码](categories/browser-games/index.html) · [数据](categories/browser-games/data/games.json)', '',
+              '仅迁移清单和静态内容，未逐款进入对局实测；旧站点链接作为历史入口保留，未配置或发布新站点。', '']
     lines += sites_section(data['sites'])
     lines += ['', '<a id="maintenance"></a>', '', '## 维护方式', '',
-              '唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。', '',
+              '项目与前端页面数据源是 [data/repos.yaml](data/repos.yaml)，浏览器游戏分类独立保存在 [categories/browser-games/](categories/browser-games/README.md)。请勿手改生成的 README。', '',
               '新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。', '',
               '好看的前端页面放在 `sites`，填写 `name`、`url`、`style`（风格分组）、`what`（亮点）、`x`（来源帖）；个人主页在参考的加 `homepage_ref`。', '',
               '能用截图讲清用途的项目可加 `preview`。填写公开截图地址 `image`、官方演示链接 `url`、替代文字 `alt` 和图注 `caption`。', '',

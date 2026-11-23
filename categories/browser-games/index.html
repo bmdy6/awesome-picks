@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d19">
+  <meta name="description" content="高质量网页游戏中文导航：喷射战士风格的 INKWAVE、坦克对战、红警网页版、三国无双、领土战略和多人游戏，一键前往原作者官网。">
+  <title>浏览器开玩 · Awesome Browser Games 中文精选</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="返回首页">
+        <span class="logo-mark">✦</span>
+        <span class="logo-copy"><strong>PLAY<span class="logo-accent">GRID</span></strong><small>中文网页游戏收藏馆</small></span>
+      </a>
+      <nav class="header-actions" aria-label="主导航">
+        <a href="#games">探索游戏</a>
+        <a href="https://github.com/bmdy6/awesome-browser-games-zh/issues/new/choose" target="_blank" rel="noopener noreferrer">推荐游戏</a>
+        <a class="header-repo" href="https://github.com/bmdy6/awesome-browser-games-zh" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-left">
+        <div class="eyebrow"><span class="live-dot"></span> THE GOOD STUFF, IN YOUR BROWSER <span class="eyebrow-index">/ 2026 EDITION</span></div>
+        <h1>好游戏，<br><span>点开就玩。</span></h1>
+        <p class="hero-desc">从涂地乱斗到坦克大战，从红警 RTS 到无双割草。这里只收藏有意思的网页游戏，用中文帮你找到下一款值得玩的作品。</p>
+        <div class="hero-cta">
+          <a class="primary-button" href="#games">开始探索 <span aria-hidden="true">↗</span></a>
+          <a class="ghost-button" href="#featured">看看精选 <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="game-total">30</strong><span>精选游戏</span></div>
+          <div><strong id="category-total">6</strong><span>玩法分类</span></div>
+          <div><strong>0</strong><span>本站游戏安装包</span></div>
+        </div>
+      </div>
+      <div class="hero-right" aria-hidden="true">
+        <div class="hero-spot hero-spot-a"><span>🦑</span><small>INKWAVE</small></div>
+        <div class="hero-spot hero-spot-b"><span>🚜</span><small>TANK BATTLE</small></div>
+        <div class="hero-spot hero-spot-c"><span>⚔️</span><small>MUSOU</small></div>
+        <div class="hero-spot hero-spot-d"><span>🗺️</span><small>REAL-TIME STRATEGY</small></div>
+        <div class="hero-orbit orbit-1"></div><div class="hero-orbit orbit-2"></div>
+        <div class="hero-annotation">CURATED · NOT MIRRORED <span>↗</span></div>
+      </div>
+    </section>
+
+    <section id="featured" class="wrap section-featured" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div><div class="section-kicker">01 / EDITOR'S PICKS</div><h2 id="featured-title">先玩这几款 <span class="sparkle">✳</span></h2></div>
+        <p>围绕射击、坦克、红警和无双，优先推荐有鲜明玩法的作品。</p>
+      </div>
+      <div id="featured-grid" class="featured-grid"><div class="loading">精选游戏加载中…</div></div>
+    </section>
+
+    <section id="games" class="wrap section-catalog" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div><div class="section-kicker">02 / GAME LIBRARY</div><h2 id="catalog-title">游戏图鉴 <span class="sparkle">✳</span></h2></div>
+        <p>一个入口，随时开玩。按类型找，不靠运气翻链接。</p>
+      </div>
+      <div class="filter-panel">
+        <div class="search-row">
+          <label class="search-box" for="search">
+            <span aria-hidden="true">⌕</span>
+            <input id="search" type="search" placeholder="搜索游戏、玩法、关键词…" autocomplete="off">
+            <kbd>/</kbd>
+          </label>
+          <span id="result-count" class="result-count" aria-live="polite">正在加载…</span>
+        </div>
+        <nav id="category-filters" class="category-filters" aria-label="游戏分类"></nav>
+        <div class="filter-extras">
+          <label class="checkbox-label"><input type="checkbox" id="only-source"><span>只看有源码</span></label>
+          <label class="checkbox-label"><input type="checkbox" id="only-zh"><span>中文已确认</span></label>
+          <button type="button" class="clear-filters" id="clear-filters">重置筛选 ↺</button>
+        </div>
+      </div>
+      <div id="game-grid" class="game-grid" aria-live="polite"><p class="loading">游戏目录加载中…</p></div>
+      <p id="empty-state" class="empty-state" hidden>没有找到匹配的游戏。试试其他分类或关键词吧。</p>
+    </section>
+
+    <section class="wrap closing">
+      <div><span class="section-kicker">03 / COMMUNITY</span><h2>发现漏网的好游戏？</h2><p>欢迎推荐新游戏、修正失效链接，或者告诉我们哪些作品真的值得一玩。<br>先收藏，再去玩，汉化可以慢慢来。</p></div>
+      <a class="primary-button" href="https://github.com/bmdy6/awesome-browser-games-zh/issues/new/choose" target="_blank" rel="noopener noreferrer">提交一款游戏 ↗</a>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <div><strong>PLAYGRID</strong><p>独立中文游戏导航 · 只收录官方及作者公开入口，不托管游戏或商业素材。</p></div>
+    <div class="footer-links"><a href="https://github.com/bmdy6/awesome-browser-games-zh" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://github.com/bmdy6/awesome-browser-games-zh/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">收录标准</a></div>
+    <p class="footer-note">信息采集：2026-11-09 · 仅核对公开页面及项目资料，尚未逐款实机测试。网络、账户、设备和语言支持可能变化。第三方游戏及商标归原权利人。</p>
+  </footer>
+</body>
+</html>

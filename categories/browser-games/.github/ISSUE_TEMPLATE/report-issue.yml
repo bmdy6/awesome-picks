@@ -1,0 +1,18 @@
+name: 🔗 链接失效或信息错误
+description: 报告游戏打不开、中文状态不对或版权疑虑
+title: "[链接/信息问题] "
+labels: ["needs-check"]
+body:
+  - type: input
+    id: game
+    attributes:
+      label: 游戏名与当前地址
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发生了什么？
+      description: 尽量注明日期、国家或地区、浏览器和错误提示；不要公开私人账号信息。
+    validations:
+      required: true
