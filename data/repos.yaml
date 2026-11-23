@@ -1583,12 +1583,8 @@ own_projects:
   what: 以 Markdown 为知识源、Git 为版本边界并提供受保护 MCP 访问的知识库
 - repo: bmdy6/research-mcp
   what: 为 Agent 提供多来源搜索与原文读取的 CLI 和 MCP
-- repo: bmdy6/skill-design-from-sites
-  what: 从参考网站提取可追溯设计依据的 Agent 技能
-- repo: bmdy6/skill-readme-from-code
-  what: 按源码和实际命令编写 README 的 Agent 技能
-- repo: bmdy6/skill-style-polish
-  what: 从会话提取文风并保持原意润色的技能
+- repo: bmdy6/agent-skills
+  what: 日常 Agent 技能集，含设计规范提取、源码 README、文风润色和会话保活
 - repo: bmdy6/stylepolish
   what: 在 Mac 输入框停笔后提供润色的菜单栏应用
 sites:
