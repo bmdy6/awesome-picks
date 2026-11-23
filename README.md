@@ -1,3 +1,5 @@
+低维护：作为作品展示，Issue 可能不及时回复
+
 # Awesome Picks
 
 我的 GitHub 项目收藏，按用途保留亮点、取舍和使用状态。
@@ -40,6 +42,7 @@
 - [效率与 Mac 工具](#category-10)
 - [游戏与趣味](#category-11)
 - [生活](#category-12)
+- [浏览器游戏](#browser-games)
 - [好看的前端页面](#sites)
 - [我自己的项目](#own-projects)
 - [维护方式](#maintenance)
@@ -552,6 +555,16 @@
 
 </details>
 
+<a id="browser-games"></a>
+
+## 浏览器游戏
+
+合并自 awesome-browser-games-zh：30 款游戏、6 类玩法，原有中文说明、官方试玩、源码、图片与许可说明完整保留。
+
+[按玩法找游戏](categories/browser-games/README.md) · [打开静态游戏馆源码](categories/browser-games/index.html) · [数据](categories/browser-games/data/games.json)
+
+仅迁移清单和静态内容，未逐款进入对局实测；旧站点链接作为历史入口保留，未配置或发布新站点。
+
 <a id="sites"></a>
 
 ## 好看的前端页面
@@ -623,7 +636,7 @@
 
 ## 维护方式
 
-唯一数据源是 [data/repos.yaml](data/repos.yaml)，请勿手改生成的 README。
+项目与前端页面数据源是 [data/repos.yaml](data/repos.yaml)，浏览器游戏分类独立保存在 [categories/browser-games/](categories/browser-games/README.md)。请勿手改生成的 README。
 
 新增项目时填写 `repo`、`category`、`tier`、`what`、`verdict`（为什么收藏）、`status`；没有试用证据时状态填“收藏”。
 

@@ -1,0 +1,43 @@
+name: 🎮 推荐游戏
+description: 推荐一款你觉得好玩的网页游戏
+title: "[游戏推荐] "
+labels: ["game-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 游戏名
+      placeholder: 例如 INKWAVE
+    validations:
+      required: true
+  - type: input
+    id: play
+    attributes:
+      label: 原作者 / 官方游玩地址
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 源码地址（如有）
+      placeholder: https://github.com/...
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 玩法分类
+      options: ["涂地与射击", "坦克与载具", "战争与领土", "动作与冒险", "经营与建造", "多人休闲"]
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 为什么好玩？你玩过吗？
+      description: 简述玩法特色和实际体验。未体验过请说明。
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: 中文、账户、素材和网络要求
+      description: 哪些已核实、哪些还不确定？无需推测。

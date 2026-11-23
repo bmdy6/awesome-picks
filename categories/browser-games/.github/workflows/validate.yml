@@ -1,0 +1,16 @@
+name: Validate catalog
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate game directory and generated README
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 scripts/generate_readme.py --check
+      - name: Syntax-check browser JS
+        run: node --check assets/app.js
